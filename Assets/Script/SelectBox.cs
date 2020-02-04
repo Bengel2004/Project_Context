@@ -15,6 +15,8 @@ public class SelectBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
 
     private string originText;
 
+    private SelectBase selectBase;
+
     private void Awake()
     {
         rt = GetComponent<RectTransform>();
@@ -23,11 +25,13 @@ public class SelectBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         boxImage = transform.Find("[Image]").GetComponent<Image>();
 
         originText = boxText.text;
+
+        selectBase = transform.parent.GetComponent<SelectBase>();
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Destroy(transform.parent.gameObject);
+        StartCoroutine(selectBase.IDestroy());
     }
 
     public void OnPointerUp(PointerEventData eventData)

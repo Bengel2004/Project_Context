@@ -61,34 +61,35 @@ public class OutLine : MonoBehaviour
 
         horizontal = GetAwayFromCenterHorizontal(gameObject);
         vertical = GetAwayFromCenterVertical(gameObject);
-
-        print(gameObject.name + "Enter");
         yield break;
     }
 
     private IEnumerator IStay()
     {
+        print(gameObject.name + "Stay");
         if (Input.GetMouseButtonDown(0))
         {
+            print(gameObject.name + ":Click");
             if (selectBox == null)
-                selectBox = Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
-                    gameObject.transform.position + new Vector3(horizontal * h, vertical * v), Quaternion.identity, GameObject.Find("[UI]").transform);
-            else
             {
-                Destroy(selectBox);
                 selectBox = Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
-                    gameObject.transform.position + new Vector3(horizontal * h, vertical * v), Quaternion.identity, GameObject.Find("[UI]").transform);
+                      gameObject.transform.position, Quaternion.identity, GameObject.Find("[UI]").transform);
+                StartCoroutine(selectBox.GetComponent<SelectBase>().ICreate(gameObject.transform.position + new Vector3(horizontal * h, vertical * v)));
             }
+            //else
+            //{
+            //    Destroy(selectBox);
+            //    selectBox = Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
+            //          gameObject.transform.position, Quaternion.identity, GameObject.Find("[UI]").transform);
+            //    StartCoroutine(selectBox.GetComponent<SelectBase>().ICreate(gameObject.transform.position + new Vector3(horizontal * h, vertical * v)));
+            //}
         }
-
-        print(gameObject.name + "Stay");
         yield break;
     }
 
     private IEnumerator IExit()
     {
         SetOutLineMaterial(false);
-        print(gameObject.name + "Exit");
         yield break;
     }
 
