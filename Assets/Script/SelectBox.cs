@@ -23,11 +23,11 @@ public class SelectBox : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         boxImage = transform.Find("[Image]").GetComponent<Image>();
 
         originText = boxText.text;
-
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Destroy(transform.parent.gameObject);
     }
 
     public void OnPointerUp(PointerEventData eventData)
