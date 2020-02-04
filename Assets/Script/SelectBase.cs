@@ -29,7 +29,7 @@ public class SelectBase : MonoBehaviour
     public IEnumerator IDestroy()
     {
         float currentTime = 0f;
-        float settingTime = 1f;
+        float settingTime = 0.5f;
 
         transform.localScale = Vector3.one;
         Vector2 oldPos = transform.position;

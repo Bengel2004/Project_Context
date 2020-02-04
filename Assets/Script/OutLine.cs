@@ -89,7 +89,6 @@ public class OutLine : MonoBehaviour
 
     private IEnumerator IExit()
     {
-        SetOutLineMaterial(false);
         yield break;
     }
 
