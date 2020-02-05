@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public int plantLevel = 1;
     public int plantWater = 50;
+    public int plantSunStrength = 50;
     public Organism currentAnimal;
 
     public static GameManager Instance { get; private set; }

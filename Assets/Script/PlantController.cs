@@ -14,6 +14,9 @@ public class PlantController : MonoBehaviour
 
     private SpriteRenderer thisSprite;
 
+    [SerializeField]
+    private OrganismObj thisOrganism;
+
     void Start()
     {
         thisSprite = GetComponent<SpriteRenderer>();
@@ -22,6 +25,7 @@ public class PlantController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if(GameManager.Instance.currentAnimal == thisOrganism)
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Vector3 temp = new Vector3(ray.origin.x, ray.origin.y, 0f);
         cameraFollow.transform.position = temp;
@@ -30,18 +34,18 @@ public class PlantController : MonoBehaviour
         {
             // level up debug
             Debug.Log("Level Up!");
-            UpdateLevel();
+            GrowPlant();
         }
     }
 
-    private void UpdateLevel()
+    private void GrowPlant()
     {
         spriteCount++;
         if(spriteCount < plantSprites.Length)
             thisSprite.sprite = plantSprites[spriteCount];
     }
 
-    private void ResetLevel()
+    private void ResetPlant()
     {
         spriteCount = 0;
         thisSprite.sprite = plantSprites[spriteCount];
