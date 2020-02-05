@@ -9,9 +9,6 @@ public class OutLine : MonoBehaviour
 
     private Camera cam;
 
-    private bool isEnter = false;
-    private bool isStay = false;
-
     private static GameObject selectBox = null;
 
     private const float h = 2.5f;
@@ -28,71 +25,56 @@ public class OutLine : MonoBehaviour
         cam = Camera.main;
     }
 
-    private void FixedUpdate()
-    {
-        Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D raycast = Physics2D.Raycast(mousePos, Vector2.zero, 0f);
-
-        if (raycast.collider != null)
-        {
-            if (raycast.collider.gameObject.Equals(gameObject))
-            {
-                if (!isEnter)
-                {
-                    isEnter = true;
-                    isStay = true;
-                    StartCoroutine(IEnter());
-                }
-                else if (isEnter && isStay)
-                    StartCoroutine(IStay());
-            }
-        }
-        else if (isEnter && isStay)
-        {
-            isEnter = false;
-            isStay = false;
-            StartCoroutine(IExit());
-        }
-    }
-
-    private IEnumerator IEnter()
+    private void OnMouseEnter()
     {
         SetOutLineMaterial(true);
 
         horizontal = GetAwayFromCenterHorizontal(gameObject);
         vertical = GetAwayFromCenterVertical(gameObject);
-        yield break;
     }
 
-    private IEnumerator IStay()
+    private void OnMouseExit()
     {
-        print(gameObject.name + "Stay");
-        if (Input.GetMouseButtonDown(0))
+        if (ObjectManager.Inst.PresentForcusObject != null)
         {
-            print(gameObject.name + ":Click");
-            if (selectBox == null)
-            {
-                selectBox = Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
-                      gameObject.transform.position, Quaternion.identity, GameObject.Find("[UI]").transform);
-                StartCoroutine(selectBox.GetComponent<SelectBase>().ICreate(gameObject.transform.position + new Vector3(horizontal * h, vertical * v)));
-            }
-            //else
-            //{
-            //    Destroy(selectBox);
-            //    selectBox = Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
-            //          gameObject.transform.position, Quaternion.identity, GameObject.Find("[UI]").transform);
-            //    StartCoroutine(selectBox.GetComponent<SelectBase>().ICreate(gameObject.transform.position + new Vector3(horizontal * h, vertical * v)));
-            //}
+            if (!ObjectManager.Inst.PresentForcusObject.Equals(this))
+                SetOutLineMaterial(false);
         }
-        yield break;
+        else
+            SetOutLineMaterial(false);
     }
 
-    private IEnumerator IExit()
+    private void OnMouseDown()
     {
-        yield break;
+        Destroy(GameObject.Find("[SelectBoxBack](Clone)"));
+
+        if (ObjectManager.Inst.PresentForcusObject != null)
+        {
+            ObjectManager.Inst.PresentForcusObject.SetOutLineMaterial(false);
+            if (ObjectManager.Inst.PresentForcusObject.Equals(this))
+                ObjectManager.Inst.PresentForcusObject = null;
+            else
+            {
+                SelectBase select = CreateBox();
+                StartCoroutine(select.ICreateCoroutine = select.ICreate(transform.position + new Vector3(horizontal * h, vertical * v)));
+                ObjectManager.Inst.PresentForcusObject = this;
+            }
+        }
+        else
+        {
+            SelectBase select = CreateBox();
+            StartCoroutine(select.ICreateCoroutine = select.ICreate(transform.position + new Vector3(horizontal * h, vertical * v)));
+            ObjectManager.Inst.PresentForcusObject = this;
+        }
     }
 
-    private void SetOutLineMaterial(bool enable)
+    private SelectBase CreateBox()
+    {
+        return Instantiate(Resources.Load<GameObject>("Prefabs/[SelectBoxBack]"),
+            transform.position, Quaternion.identity, ObjectManager.Inst.UiCanvas.transform).GetComponent<SelectBase>();
+    }
+
+    public void SetOutLineMaterial(bool enable)
     {
         srenderer.GetPropertyBlock(mtProperty);
         mtProperty.SetFloat("_OutlineEnabled", System.Convert.ToInt32(enable));

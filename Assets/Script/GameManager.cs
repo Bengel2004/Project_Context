@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public int plantWater = 50;
     public Organism currentAnimal;
 
-
     public static GameManager Instance { get; private set; }
 
     private void Awake()
