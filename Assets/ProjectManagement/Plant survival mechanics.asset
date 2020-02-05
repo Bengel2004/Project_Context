@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fd65d451d07a84399e9c148b4f8256, type: 3}
+  m_Name: Plant survival mechanics
+  m_EditorClassIdentifier: 
+  itemName: Plant survival mechanics
+  itemStatus: 0
+  itemType: 2
+  itemDescription: The plant needs a water system, the plant gets watered by the
+    lady for x amount of days till a certain event happens, from that point on the
+    player must gather water for the plant on his own by finding water as the pelican
+    bird and scooping it up and bringing it back to the plant. The plant needs Water
+    and sunlight to grow, this check is done by the end of each day.

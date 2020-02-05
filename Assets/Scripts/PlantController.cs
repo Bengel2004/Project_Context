@@ -6,20 +6,44 @@ public class PlantController : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    private Vector2 minDeadZone;
+    private GameObject cameraFollow;
     [SerializeField]
-    private Vector2 maxDeadZone;
+    private Sprite[] plantSprites = new Sprite[5];
+    [SerializeField]
+    private int spriteCount;
+
+    private SpriteRenderer thisSprite;
+
     void Start()
     {
-        
+        thisSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        //   if(ray.origin.x > minDeadZone.x && ray.origin.y > minDeadZone.y && ray.origin.x < maxDeadZone.x && ray.origin.y < maxDeadZone.y)
         Vector3 temp = new Vector3(ray.origin.x, ray.origin.y, 0f);
-        transform.position = temp;
+        cameraFollow.transform.position = temp;
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            // level up debug
+            Debug.Log("Level Up!");
+            UpdateLevel();
+        }
+    }
+
+    private void UpdateLevel()
+    {
+        spriteCount++;
+        if(spriteCount < plantSprites.Length)
+            thisSprite.sprite = plantSprites[spriteCount];
+    }
+
+    private void ResetLevel()
+    {
+        spriteCount = 0;
+        thisSprite.sprite = plantSprites[spriteCount];
     }
 }
