@@ -8,7 +8,7 @@ public class SelectBase : MonoBehaviour
     public IEnumerator ICreate(Vector2 pos)
     {
         float currentTime = 0f;
-        float settingTime = .2f;
+        float settingTime = .3f;
 
         transform.localScale = Vector3.one * 0.1f;
         originPos = transform.position;
@@ -46,8 +46,6 @@ public class SelectBase : MonoBehaviour
         transform.localScale = Vector3.zero;
         transform.position = originPos;
 
-        Managers.Out.PresentForcusObject.SetOutLineMaterial(false);
-        Managers.Out.PresentForcusObject = null;
         Destroy(gameObject);
     }
 }
