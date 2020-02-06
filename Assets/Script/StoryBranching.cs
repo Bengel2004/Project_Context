@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Doozy.Engine.UI;
+using UnityEngine.UI;
 
 public class StoryBranching : MonoBehaviour
 {
@@ -12,8 +13,14 @@ public class StoryBranching : MonoBehaviour
   //  private int currentStoryProgress;
 
     [SerializeField]
-    private UIView view;
+    private UIView growView;
 
+    [SerializeField]
+    private UIView popUpOrganism;
+    [SerializeField]
+    private Image chosenAnimal;
+
+    private Organism lastClicked;
     // Update is called once per frame
     void Update()
     {
@@ -26,10 +33,12 @@ public class StoryBranching : MonoBehaviour
                 {
                     if (hit.transform.gameObject == storyBranch[currentStoryBranch].branch[storyBranch[currentStoryBranch].currentBranchProgress])
                     {
-                        storyBranch[currentStoryBranch].currentBranchProgress++;
-                        Debug.Log("Progress time of day!");
-                        Debug.Log("You now play as this animal script");
-                        Managers.Game.currentAnimal = hit.transform.GetComponent<Organism>();
+                        //storyBranch[currentStoryBranch].currentBranchProgress++;
+                        // Managers.Game.currentAnimal = hit.transform.GetComponent<Organism>();
+                        popUpOrganism.Show();
+                        CameraController.ToggleFollowStatic();
+                        lastClicked = hit.transform.GetComponent<Organism>();
+                        chosenAnimal.sprite = lastClicked.thisOrganism.organismSprite;
                     }
                 }
             }
@@ -37,9 +46,23 @@ public class StoryBranching : MonoBehaviour
             if (storyBranch[currentStoryBranch].currentBranchProgress == storyBranch[currentStoryBranch].branch.Count)
             {
                 updateStoryProgress();
-                view.Show();
+                growView.Show();
             }
         }
+    }
+    private IEnumerator ShowUiView()
+    {
+        yield return new WaitForSeconds(2);
+        growView.Show();
+    }
+
+    public void ChooseAnimal()
+    {
+        CameraController.ToggleFollowStatic();
+        storyBranch[currentStoryBranch].currentBranchProgress++;
+        Managers.Game.currentAnimal = lastClicked;
+        Debug.Log("Progress time of day!");
+        Debug.Log("You now play as this animal script");
     }
 
     public void ShowPlant()
@@ -48,12 +71,6 @@ public class StoryBranching : MonoBehaviour
         {
             StartCoroutine(ShowUiView());
         }
-    }
-
-    IEnumerator ShowUiView()
-    {
-        yield return new WaitForSeconds(2);
-        view.Show();
     }
 
     public void updateStoryProgress()
