@@ -31,8 +31,9 @@ public class StoryBranching : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Managers.Game.plantLevel == storyBranch[currentStoryBranch].standardGrow)
+        if (!storyBranch[currentStoryBranch].JustGrowDay)
         {
+            StopAllCoroutines();
             if (Input.GetMouseButtonDown(0))
             {
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -56,12 +57,24 @@ public class StoryBranching : MonoBehaviour
                 growView.Show();
             }
         }
+        else
+        {
+            if (!growView.gameObject.activeSelf)
+            {
+                ShowPlant();
+            }
+        }
     }
     private IEnumerator ShowUiView()
     {
-        yield return new WaitForSeconds(2);
-        growView.Show();
+        if (storyBranch[currentStoryBranch].JustGrowDay)
+        {
+            yield return new WaitForSeconds(2);
+            growView.Show();
+        }
     }
+
+ 
 
     public void ChooseAnimal()
     {
@@ -77,10 +90,10 @@ public class StoryBranching : MonoBehaviour
 
     public void ShowPlant()
     {
-        if(Managers.Game.plantLevel < storyBranch[currentStoryBranch].standardGrow)
-        {
+       // if(Managers.Game.plantLevel < storyBranch[currentStoryBranch].standardGrow)
+      //  {
             StartCoroutine(ShowUiView());
-        }
+     //   }
     }
 
     public void updateStoryProgress()
@@ -94,6 +107,7 @@ public class StoryBranching : MonoBehaviour
 public class StoryBranch
 {
     public string currentBranchName;
+    public bool JustGrowDay = false;
     public List<GameObject> branch;
     public int currentBranchProgress = 0;
     public int standardGrow = 1;

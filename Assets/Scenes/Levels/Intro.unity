@@ -493,10 +493,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 10, y: 6.5}
-      - {x: -10, y: 6.5}
-      - {x: -10, y: -6.5}
-      - {x: 10, y: -6.5}
+    - - {x: 11, y: 7.5}
+      - {x: -11, y: 7.5}
+      - {x: -11, y: -7.5}
+      - {x: 11, y: -7.5}
 --- !u!4 &191611286
 Transform:
   m_ObjectHideFlags: 0
@@ -1435,6 +1435,17 @@ MonoBehaviour:
           - m_Target: {fileID: 597387000}
             m_MethodName: Hide
             m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1599593493}
+            m_MethodName: updateStoryProgress
+            m_Mode: 1
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8467,7 +8478,7 @@ MonoBehaviour:
   m_BoundingVolume: {fileID: 0}
   m_BoundingShape2D: {fileID: 191611285}
   m_ConfineScreenEdges: 1
-  m_Damping: 0.2
+  m_Damping: 0
 --- !u!114 &800993912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9135,15 +9146,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyBranch:
-  - currentBranchName: Day 1,2,3
+  - currentBranchName: Day 1
+    JustGrowDay: 1
     branch:
     - {fileID: 405306398}
     - {fileID: 328869562}
     currentBranchProgress: 0
+    standardGrow: 1
+    currentDay: 0
+    endOfDay: 1
+  - currentBranchName: Day 2
+    JustGrowDay: 1
+    branch:
+    - {fileID: 0}
+    - {fileID: 0}
+    currentBranchProgress: 0
     standardGrow: 2
     currentDay: 0
     endOfDay: 1
-  - currentBranchName: 
+  - currentBranchName: Day 3
+    JustGrowDay: 0
+    branch:
+    - {fileID: 405306398}
+    - {fileID: 328869562}
+    currentBranchProgress: 0
+    standardGrow: 4
+    currentDay: 0
+    endOfDay: 1
+  - currentBranchName: Day 5
+    JustGrowDay: 1
     branch:
     - {fileID: 0}
     - {fileID: 0}

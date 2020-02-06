@@ -12,6 +12,12 @@ public class Sun : MonoBehaviour
        // StartCoroutine(SunFlow(0, 4, 10));
     }
 
+    public void PassOneDay()
+    {
+        Managers.time.maxFlowCnt = 1;
+        StartCoroutine(SunFlow(0, 1, 2));
+    }
+
     public IEnumerator SunFlow(int start, int end, float t)
     {
         float timer = 0f;
