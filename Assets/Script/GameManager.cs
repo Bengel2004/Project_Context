@@ -9,4 +9,6 @@ public class GameManager : MonoBehaviour
     public int plantSunStrength = 50;
     public Organism currentAnimal;
     
+
+
 }
