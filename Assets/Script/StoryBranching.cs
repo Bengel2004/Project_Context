@@ -13,16 +13,11 @@ public class StoryBranching : MonoBehaviour
 
     [SerializeField]
     private UIView view;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.plantLevel == storyBranch[currentStoryBranch].standardGrow)
+        if (Managers.Game.plantLevel == storyBranch[currentStoryBranch].standardGrow)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -34,7 +29,7 @@ public class StoryBranching : MonoBehaviour
                         storyBranch[currentStoryBranch].currentBranchProgress++;
                         Debug.Log("Progress time of day!");
                         Debug.Log("You now play as this animal script");
-                        GameManager.Instance.currentAnimal = hit.transform.GetComponent<Organism>();
+                        Managers.Game.currentAnimal = hit.transform.GetComponent<Organism>();
                     }
                 }
             }
@@ -49,7 +44,7 @@ public class StoryBranching : MonoBehaviour
 
     public void ShowPlant()
     {
-        if(GameManager.Instance.plantLevel < storyBranch[currentStoryBranch].standardGrow)
+        if(Managers.Game.plantLevel < storyBranch[currentStoryBranch].standardGrow)
         {
             StartCoroutine(ShowUiView());
         }
@@ -67,6 +62,7 @@ public class StoryBranching : MonoBehaviour
     }
 
 }
+
 [System.Serializable]
 public class StoryBranch
 {

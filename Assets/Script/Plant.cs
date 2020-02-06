@@ -34,10 +34,10 @@ public class Plant : Organism
 
     public void Grow()
     {
-        GameManager.Instance.plantLevel++;
-        if (GameManager.Instance.plantLevel < plantSprites.Length)
+        Managers.Game.plantLevel++;
+        if (Managers.Game.plantLevel < plantSprites.Length)
         {
-            thisSprite.sprite = plantSprites[GameManager.Instance.plantLevel];
+            thisSprite.sprite = plantSprites[Managers.Game.plantLevel];
         }
         else
         {

@@ -6,8 +6,6 @@ public class Sun : MonoBehaviour
 {
     private const int m_MaxSunAngle = 150;
 
-    private int test = 0;
-
     // Start is called before the first frame update
     void Start()
     {

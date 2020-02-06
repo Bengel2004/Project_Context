@@ -54,18 +54,18 @@ public class OutLine : MonoBehaviour
             if (ObjectManager.Inst.PresentForcusObject.Equals(this))
                 ObjectManager.Inst.PresentForcusObject = null;
             else
-            {
-                SelectBase select = CreateBox();
-                StartCoroutine(select.ICreateCoroutine = select.ICreate(transform.position + new Vector3(horizontal * h, vertical * v)));
-                ObjectManager.Inst.PresentForcusObject = this;
-            }
+                ForcusThis();
         }
         else
-        {
-            SelectBase select = CreateBox();
-            StartCoroutine(select.ICreateCoroutine = select.ICreate(transform.position + new Vector3(horizontal * h, vertical * v)));
-            ObjectManager.Inst.PresentForcusObject = this;
-        }
+            ForcusThis();
+    }
+
+    private void ForcusThis()
+    {
+        ObjectManager.Inst.PresentForcusObject = this;
+
+        //SelectBase select = CreateBox();
+        //StartCoroutine(select.ICreateCoroutine = select.ICreate(transform.position + new Vector3(horizontal * h, vertical * v)));
     }
 
     private SelectBase CreateBox()
