@@ -9,7 +9,7 @@ public class Sun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SunFlow(0, 4, 10));
+       // StartCoroutine(SunFlow(0, 4, 10));
     }
 
     public IEnumerator SunFlow(int start, int end, float t)

@@ -25,6 +25,11 @@ public class Plant : Organism
             Debug.Log("Level Up!");
             ExecuteBehaviour();
         }
+
+        if (Managers.Game.plantLevel < plantSprites.Length)
+        {
+            thisSprite.sprite = plantSprites[Managers.Game.plantLevel];
+        }
     }
     protected override void ExecuteBehaviour()
     {
