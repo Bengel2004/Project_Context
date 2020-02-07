@@ -9835,7 +9835,7 @@ GameObject:
   - component: {fileID: 1922599304}
   - component: {fileID: 1922599303}
   m_Layer: 0
-  m_Name: UIView
+  m_Name: '[MenuScreen]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

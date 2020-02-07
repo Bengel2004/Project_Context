@@ -9116,7 +9116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599593490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0021730084, y: -0.46900788, z: -1.3945312}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9139,6 +9139,7 @@ MonoBehaviour:
     branch:
     - {fileID: 405306398}
     - {fileID: 328869562}
+    rightWayNodeIndex: 
     currentBranchProgress: 0
     standardGrow: 2
     currentDay: 0
@@ -9147,6 +9148,7 @@ MonoBehaviour:
     branch:
     - {fileID: 0}
     - {fileID: 0}
+    rightWayNodeIndex: 
     currentBranchProgress: 0
     standardGrow: 4
     currentDay: 0

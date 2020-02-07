@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Doozy.Engine.UI;
 using UnityEngine.UI;
+using System;
+using UnityEngine.Events;
 
 public class StoryBranching : MonoBehaviour
 {
@@ -95,8 +97,12 @@ public class StoryBranch
 {
     public string currentBranchName;
     public List<GameObject> branch;
+    public List<int> rightWayNodeIndex;
     public int currentBranchProgress = 0;
     public int standardGrow = 1;
     public int currentDay = 0;
     public int endOfDay = 1;
+
+
+
 }
