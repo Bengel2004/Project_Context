@@ -135,3 +135,12 @@ public class StoryBranch
     [TextArea]
     public string _storyText; // hack
 }
+
+/* Branching systeem Idee
+ * Elk object heeft zijn eigen "Branch code" waar je op kan klikken, dat is een apart script. En elke keer als je op een van de x aantal uiteindes klikt gaat t huidige branch script uit
+ * En word hij doorgestuurd naar dat andere script. Deze gaan dan aan, en dan kan je weer op die x aantal dingen klikken.
+ * 
+ * 
+ * 
+ * 
+ */
