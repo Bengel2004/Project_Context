@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Doozy.Engine.UI;
 using UnityEngine.UI;
+using TMPro;
 
 public class StoryBranching : MonoBehaviour
 {
@@ -24,44 +25,53 @@ public class StoryBranching : MonoBehaviour
 
     private Sun sun;
 
+    [SerializeField] // hack
+    private TextMeshProUGUI storyText;
+    [SerializeField] //hack
+    private UIView storyUI;
+
     private void Start()
     {
         sun = FindObjectOfType<Sun>();
+        storyText.text = storyBranch[currentStoryBranch]._storyText; // hack
     }
     // Update is called once per frame
     private void Update()
     {
-        if (!storyBranch[currentStoryBranch].JustGrowDay)
+        if (currentStoryBranch < storyBranch.Count)
         {
-            StopAllCoroutines();
-            if (Input.GetMouseButtonDown(0))
+            if (!storyBranch[currentStoryBranch].JustGrowDay)
             {
-                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-                if (hit.collider != null)
+                StopAllCoroutines();
+                if (Input.GetMouseButtonDown(0))
                 {
-                    if (hit.transform.gameObject == storyBranch[currentStoryBranch].branch[storyBranch[currentStoryBranch].currentBranchProgress])
+                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+                    if (hit.collider != null)
                     {
-                        //storyBranch[currentStoryBranch].currentBranchProgress++;
-                        // Managers.Game.currentAnimal = hit.transform.GetComponent<Organism>();
-                        popUpOrganism.Show();
-                        CameraController.ToggleFollowStatic();
-                        lastClicked = hit.transform.GetComponent<Organism>();
-                        chosenAnimal.sprite = lastClicked.thisOrganism.organismSprite;
+                        if (hit.transform.gameObject == storyBranch[currentStoryBranch].branch[storyBranch[currentStoryBranch].currentBranchProgress])
+                        {
+                            //storyBranch[currentStoryBranch].currentBranchProgress++;
+                            // Managers.Game.currentAnimal = hit.transform.GetComponent<Organism>();
+                            popUpOrganism.Show();
+                            CameraController.ToggleFollowStatic();
+                            lastClicked = hit.transform.GetComponent<Organism>();
+                            chosenAnimal.sprite = lastClicked.thisOrganism.organismSprite;
+                        }
                     }
                 }
-            }
 
-            if (storyBranch[currentStoryBranch].currentBranchProgress == storyBranch[currentStoryBranch].branch.Count)
-            {
-                updateStoryProgress();
-                growView.Show();
+                if (storyBranch[currentStoryBranch].currentBranchProgress == storyBranch[currentStoryBranch].branch.Count)
+                {
+                    //  updateStoryProgress();
+                    growView.Show();
+                }
             }
-        }
-        else
-        {
-            if (!growView.gameObject.activeSelf)
+            else
             {
-                ShowPlant();
+                if (!growView.gameObject.activeSelf)
+                {
+                    ShowPlant();
+                }
             }
         }
     }
@@ -83,15 +93,21 @@ public class StoryBranching : MonoBehaviour
         Managers.Game.currentAnimal = lastClicked;
         Debug.Log("Progress time of day!");
         Debug.Log("You now play as this animal script");
+        PassTime();
+    }
+
+    public void PassTime()
+    {
         Managers.time.maxFlowCnt = storyBranch[currentStoryBranch].endOfDay;
-        sun.StartCoroutine(sun.SunFlow(storyBranch[currentStoryBranch].currentDay, (storyBranch[currentStoryBranch].currentDay + 1), 5));
+        sun.StartCoroutine(sun.SunFlow(storyBranch[currentStoryBranch].currentDay, (storyBranch[currentStoryBranch].currentDay + 1), 2));
         storyBranch[currentStoryBranch].currentDay++;
     }
 
     public void ShowPlant()
     {
-       // if(Managers.Game.plantLevel < storyBranch[currentStoryBranch].standardGrow)
-      //  {
+        // if(Managers.Game.plantLevel < storyBranch[currentStoryBranch].standardGrow)
+        //  {
+        if (currentStoryBranch < storyBranch.Count)
             StartCoroutine(ShowUiView());
      //   }
     }
@@ -99,6 +115,8 @@ public class StoryBranching : MonoBehaviour
     public void updateStoryProgress()
     {
         currentStoryBranch++;
+        storyUI.Show(); // hack
+        storyText.text = storyBranch[currentStoryBranch]._storyText; // hack
     }
 
 }
@@ -113,4 +131,7 @@ public class StoryBranch
     public int standardGrow = 1;
     public int currentDay = 0;
     public int endOfDay = 1;
+
+    [TextArea]
+    public string _storyText; // hack
 }
