@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class StoryItem : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class StoryItem : MonoBehaviour
 
 
     private Button growButton;
+
+    public UnityEvent events; // Hiermee kunnen we elke keer aan t einde van een level een event aanroepen.
     void Start()
     {
         growButton = GameObject.Find("UIButtonGrow").GetComponent<Button>();        
