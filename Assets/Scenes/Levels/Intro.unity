@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 246381520}
   - component: {fileID: 246381524}
   m_Layer: 0
-  m_Name: UIButton
+  m_Name: UIButtonGrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12496,70 +12496,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyBranch:
-  - currentBranchName: Day 1
-    JustGrowDay: 1
-    branch: []
-    currentBranchProgress: 0
-    standardGrow: 1
-    currentDay: 0
-    endOfDay: 1
-    _storyText: "Caracoli - Colombia Day 1\n\nIt is a sunny day in Caracoli, you
-      have been bought by a small nice looking lady that will take care of you from
-      this day forward. She holds you tight while walking away from the store, she
-      introduces herself to you as Andrea. She talks about the nice spot she reserved
-      for you and all your new friends on the farm that you will get to know, she
-      chatters on and on and hums, until she suddenly stops. \n\n Andrea: \u201CLook,
-      this will be your new home!\u201D She walks to a spot with a hole in it and
-      a lot of sun. She put you down in the hole and scoops sand all around you,
-      until you are settled quite nicely. Andrea: \u201CYou are my very first little
-      pumpkin sprout and I will take care of you in the best way possible.\u201D
-      Andrea waters you and together with the sun you are able to grow. "
-  - currentBranchName: Day 2
-    JustGrowDay: 1
-    branch: []
-    currentBranchProgress: 0
-    standardGrow: 2
-    currentDay: 0
-    endOfDay: 1
-    _storyText: "Caracoli - Colombia Day 2\n\nIt is a sunny day again in Caracoli,
-      Andrea hums while watering you and tells you that she will be quite busy today
-      on the farm, but she will come back later and see how you re doing.\n\nAndrea:
-      You already have a flower! I am so happy that you are doing so well pumpkin.
-      Between me and my husband, you know, Juan it isn\u2019t going so well. We are
-      almost out of food, but our children need to eat. We think differently on how
-      to achieve that. Oh well, I see you tomorrow pumpkin."
-  - currentBranchName: Day 3
-    JustGrowDay: 0
-    branch:
-    - {fileID: 405306398}
-    - {fileID: 328869562}
-    currentBranchProgress: 0
-    standardGrow: 4
-    currentDay: 0
-    endOfDay: 3
-    _storyText: "Caracoli - Colombia day 3\r\n\r\nIt is a sunny day again in Caracoli,
-      Andrea starts her day with watering you...\r\nAndrea: Oh sweet pumpkin, I have
-      some bad news, this will be the last water for a few days. I really hope you
-      will be fine in this harsh drought, but I will try my best to get some more
-      soon! I hope you grow well enough, for my two boys especially.\r\n\nNevertheless
-      the sun has been blocked by another plant, if there was only a way to break
-      that branch... \n\nYou have become the bird, you break the branch with your
-      beak and weight. You change back to yourself and feel the sunlight on your
-      leaves!\n\n\r\n\n\n\n\n\nA bird passes by the farm and lands nearby.\r\n"
-  - currentBranchName: Day 5
-    JustGrowDay: 1
-    branch: []
-    currentBranchProgress: 0
-    standardGrow: 4
-    currentDay: 0
-    endOfDay: 1
-    _storyText: 
-  currentStoryBranch: 0
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  storyText: {fileID: 1981619383}
+  storyUI: {fileID: 1142639136}
   growView: {fileID: 597387000}
   popUpOrganism: {fileID: 485470738}
   chosenAnimal: {fileID: 1061445977}
-  storyText: {fileID: 1981619383}
-  storyUI: {fileID: 1142639136}
 --- !u!1 &1631814448
 GameObject:
   m_ObjectHideFlags: 0
