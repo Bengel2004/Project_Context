@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(ObjectManager))]
 [RequireComponent(typeof(GameManager))]
 [RequireComponent(typeof(TimeManager))]
+[RequireComponent(typeof(StoryBranching))]
 public class Managers : MonoBehaviour
 {
     public static Managers Inst = null;
@@ -12,6 +13,7 @@ public class Managers : MonoBehaviour
     public static ObjectManager Object = null;
     public static GameManager Game = null;
     public static TimeManager time = null;
+    public static StoryBranching Story = null;
 
     private void Awake()
     {
@@ -30,6 +32,7 @@ public class Managers : MonoBehaviour
         Object = GetComponent<ObjectManager>();
         Game = GetComponent<GameManager>();
         time = GetComponent<TimeManager>();
+        Story = GetComponent<StoryBranching>();
 
         #endregion
 

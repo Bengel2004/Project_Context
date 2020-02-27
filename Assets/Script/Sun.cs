@@ -7,11 +7,6 @@ public class Sun : MonoBehaviour
     private const int m_MaxSunAngle = 150;
 
     // Start is called before the first frame update
-    void Start()
-    {
-       // StartCoroutine(SunFlow(0, 4, 10));
-    }
-
     public void PassOneDay()
     {
         Managers.time.maxFlowCnt = 1;
@@ -25,8 +20,6 @@ public class Sun : MonoBehaviour
         int angleUnit = GetAngleUnit(m_MaxSunAngle, Managers.time.maxFlowCnt);
         transform.parent.rotation = Quaternion.Euler(0, 0, -(angleUnit * start));
 
-        print(angleUnit * start);
-        print(angleUnit * end);
 
         while (timer <= t)
         {

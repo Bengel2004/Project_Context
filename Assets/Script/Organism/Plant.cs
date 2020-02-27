@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Plant : Organism
 {
@@ -9,7 +10,11 @@ public class Plant : Organism
     [SerializeField]
     private int spriteCount;
     // Start is called before the first frame update
+
     private SpriteRenderer thisSprite;
+    [SerializeField]
+    private Image thisSpriteUI;
+
     protected override void Start()
     {
         base.Start();
@@ -29,6 +34,7 @@ public class Plant : Organism
         if (Managers.Game.plantLevel < plantSprites.Length)
         {
             thisSprite.sprite = plantSprites[Managers.Game.plantLevel];
+            thisSpriteUI.sprite = plantSprites[Managers.Game.plantLevel];
         }
     }
     protected override void ExecuteBehaviour()
@@ -43,6 +49,8 @@ public class Plant : Organism
         if (Managers.Game.plantLevel < plantSprites.Length)
         {
             thisSprite.sprite = plantSprites[Managers.Game.plantLevel];
+            thisSpriteUI.sprite = plantSprites[Managers.Game.plantLevel];
+
         }
         else
         {

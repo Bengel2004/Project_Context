@@ -4,9 +4,43 @@ using UnityEngine;
 using Doozy.Engine.UI;
 using UnityEngine.UI;
 using TMPro;
+using Doozy.Engine;
 
 public class StoryBranching : MonoBehaviour
 {
+    public GameObject taskPlacementObj;
+
+    public GameObject taskItem;
+
+    public UIView view;
+
+    private void Start()
+    {
+        
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Managers.Story.view.Toggle();
+        }
+    }
+
+    public TaskShow CreateTaskItem(string _taskText)
+    {
+        GameObject _obj = Instantiate(taskItem, taskPlacementObj.transform.position, Quaternion.identity);
+        _obj.transform.SetParent(taskPlacementObj.transform);
+        TaskShow _tempTask = _obj.GetComponent<TaskShow>();
+        _tempTask.task.text = _taskText;
+        _obj.transform.localScale = new Vector3(1, 1, 1);
+
+        return _tempTask;
+    }
+
+}
+
+    /*
     [SerializeField]
     public List<StoryBranch> storyBranch;
     [SerializeField]
@@ -99,7 +133,7 @@ public class StoryBranching : MonoBehaviour
     public void PassTime()
     {
         Managers.time.maxFlowCnt = storyBranch[currentStoryBranch].endOfDay;
-        sun.StartCoroutine(sun.SunFlow(storyBranch[currentStoryBranch].currentDay, (storyBranch[currentStoryBranch].currentDay + 1), 2));
+ 
         storyBranch[currentStoryBranch].currentDay++;
     }
 
@@ -118,6 +152,7 @@ public class StoryBranching : MonoBehaviour
         storyUI.Show(); // hack
         storyText.text = storyBranch[currentStoryBranch]._storyText; // hack
     }
+    
 
 }
 
@@ -135,7 +170,7 @@ public class StoryBranch
     [TextArea]
     public string _storyText; // hack
 }
-
+*/
 /* Branching systeem Idee
  * Elk object heeft zijn eigen "Branch code" waar je op kan klikken, dat is een apart script. En elke keer als je op een van de x aantal uiteindes klikt gaat t huidige branch script uit
  * En word hij doorgestuurd naar dat andere script. Deze gaan dan aan, en dan kan je weer op die x aantal dingen klikken.

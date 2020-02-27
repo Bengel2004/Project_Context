@@ -9,15 +9,27 @@ public class CameraController : MonoBehaviour
     private GameObject cameraFollow;
     public static bool enableFollow = true;
 
+    [SerializeField]
+    private Vector2 bounds;
+
     // Update is called once per frame
     void Update()
     {
         if (enableFollow)
         {
             //if(GameManager.Instance.currentAnimal == thisOrganism)
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Vector3 temp = new Vector3(ray.origin.x, ray.origin.y, 0f);
-            cameraFollow.transform.position = temp;
+            Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Vector3 _temp = new Vector3(_ray.origin.x, _ray.origin.y, 0f);
+            cameraFollow.transform.position = _temp;
+/*
+            if(_temp.x > bounds.x || _temp.x < -bounds.x)
+            {
+                Debug.LogError("true");
+                Vector3 _tempVector = _temp;
+                _tempVector = -_tempVector;
+                cameraFollow.transform.position = _tempVector;
+
+            } */
         }
     }
 
