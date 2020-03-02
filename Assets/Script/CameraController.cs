@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour
             Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 _temp = new Vector3(_ray.origin.x, _ray.origin.y, 0f);
             cameraFollow.transform.position = _temp;
-/*
+            /*
             if(_temp.x > bounds.x || _temp.x < -bounds.x)
             {
                 Debug.LogError("true");
@@ -29,7 +29,8 @@ public class CameraController : MonoBehaviour
                 _tempVector = -_tempVector;
                 cameraFollow.transform.position = _tempVector;
 
-            } */
+            } 
+            */
         }
     }
 

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Doozy.Engine.UI;
+using TMPro;
+using UnityEngine.Events;
 
 public class StoryItem : MonoBehaviour
 {
@@ -11,37 +14,82 @@ public class StoryItem : MonoBehaviour
     public string task;
 
     [SerializeField]
+    private bool endEventBool;
+    public UnityEvent endEvent;
+
+    [SerializeField]
     private bool isLastItem;
     [SerializeField]
     private bool skipDayItem;
+
 
     [SerializeField]
     private int currentSunPos;
     [SerializeField]
     private int DaySunPos;
     private Sun sun;
-    
+
+    [SerializeField]
+    private OrganismObj organism;
+
     private Button growButton;
     private TaskShow taskItem;
+
+
+    [SerializeField]
+    private bool showText;
+    [TextArea] // maak if else editore xtension als isLastItem true is dan laat hij dit zien;
+    public string endOfDayText;
+    [SerializeField]
+    private UIView infoView;
+    [SerializeField]
+    private TextMeshProUGUI infoViewText;
+
+    [SerializeField]
+    private bool altBehaviour;
+    public UnityEvent eventType;
+    
+
+    private void Awake()
+    {
+
+        if (showText)
+            growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
+
+        if (showText && enabled)
+        {
+            Debug.Log("test", gameObject);
+            infoView.Show();
+            infoViewText.text = endOfDayText;
+        }
+    }
     private void OnEnable()
     {
-        sun = FindObjectOfType<Sun>();
-        if (skipDayItem)
+        if (showText && enabled)
         {
-            Managers.Story.view.Show();
-            growButton = GameObject.Find("UIGrowButton").GetComponent<Button>();
-            growButton.onClick.AddListener(ButtonTask);
-            growButton.onClick.AddListener(PassTime);
+            Debug.Log("test", gameObject);
+            infoView.Show();
+            infoViewText.text = endOfDayText;
         }
 
+      //  ShowOrganism.Instance.ShowImage(organism);
+        Debug.Log(gameObject.name);
+        sun = FindObjectOfType<Sun>();
         taskItem = Managers.Story.CreateTaskItem(task);
+
+        if (skipDayItem)
+        {
+            growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
+            growButton?.onClick.AddListener(ButtonTask);
+            growButton?.onClick.AddListener(PassTime);
+        }
     }
     private void OnDisable()
     {
         if (skipDayItem)
         {
-            growButton.onClick.RemoveListener(ButtonTask);
-            growButton.onClick.RemoveListener(PassTime);
+            growButton?.onClick.RemoveListener(ButtonTask);
+            growButton?.onClick.RemoveListener(PassTime);
         }
     }
 
@@ -59,10 +107,26 @@ public class StoryItem : MonoBehaviour
                     {
                         if(hit.transform.gameObject == i.gameObject)
                         {
-                            CompleteTask(i);
+                            if (i.altBehaviour)
+                            {
+                                i.eventType.Invoke();
+                            }
+                            else
+                            {
+                                CompleteTask(i);
+                            }
                         }
                     }
                 }
+            }
+        }
+        else
+        {
+            if (growButton == null)
+            {
+                growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
+                growButton?.onClick.AddListener(ButtonTask);
+                growButton?.onClick.AddListener(PassTime);
             }
         }
     }
@@ -73,8 +137,13 @@ public class StoryItem : MonoBehaviour
         sun.StartCoroutine(sun.SunFlow(currentSunPos, (currentSunPos + 1), 2));
     }
 
-    private void CompleteTask(StoryItem _storyItem)
+    public void CompleteTask(StoryItem _storyItem)
     {
+        if (endEventBool)
+        {
+            endEvent.Invoke();
+        }
+        
         this.enabled = false;
         PassTime();
         _storyItem.enabled = true;

@@ -14,9 +14,9 @@ public class StoryBranching : MonoBehaviour
 
     public UIView view;
 
-    private void Start()
+    private void Awake()
     {
-        
+        view = GameObject.Find("GrowButton").GetComponent<UIView>();
     }
 
     private void Update()

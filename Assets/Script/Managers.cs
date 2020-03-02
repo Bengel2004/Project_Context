@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(GameManager))]
 [RequireComponent(typeof(TimeManager))]
 [RequireComponent(typeof(StoryBranching))]
+[DefaultExecutionOrder(-1)]
 public class Managers : MonoBehaviour
 {
     public static Managers Inst = null;
