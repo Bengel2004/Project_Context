@@ -8,15 +8,13 @@ using UnityEngine.Events;
 
 public class StoryItem : MonoBehaviour
 {
+    [Header("Main Tree")]
     // Start is called before the first frame update
     [SerializeField]
     private List<StoryItem> item = new List<StoryItem>();
     public string task;
 
-    [SerializeField]
-    private bool endEventBool;
-    public UnityEvent endEvent;
-
+    [Header("Day Settings")]
     [SerializeField]
     private bool isLastItem;
     [SerializeField]
@@ -31,6 +29,8 @@ public class StoryItem : MonoBehaviour
 
     [SerializeField]
     private OrganismObj organism;
+    [SerializeField]
+    private NarrativeItem narItem;
 
     private Button growButton;
     private TaskShow taskItem;
@@ -45,9 +45,18 @@ public class StoryItem : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI infoViewText;
 
+    [Header("Events")]
+    [SerializeField]
+    private bool startEventBool;
+    public UnityEvent startEvent;
+    [SerializeField]
+    private bool endEventBool;
+    public UnityEvent endEvent;
+
     [SerializeField]
     private bool altBehaviour;
     public UnityEvent eventType;
+    
     
 
     private void Awake()
@@ -58,9 +67,8 @@ public class StoryItem : MonoBehaviour
 
         if (showText && enabled)
         {
+            Managers.Narrative.NewNarrative(narItem);
             Debug.Log("test", gameObject);
-            infoView.Show();
-            infoViewText.text = endOfDayText;
         }
     }
     private void OnEnable()
@@ -68,11 +76,14 @@ public class StoryItem : MonoBehaviour
         if (showText && enabled)
         {
             Debug.Log("test", gameObject);
-            infoView.Show();
-            infoViewText.text = endOfDayText;
+            Managers.Narrative.NewNarrative(narItem);
+        }
+        if(startEventBool && enabled)
+        {
+            startEvent.Invoke();
         }
 
-      //  ShowOrganism.Instance.ShowImage(organism);
+        //ShowOrganism.Instance.ShowImage(organism);
         Debug.Log(gameObject.name);
         sun = FindObjectOfType<Sun>();
         taskItem = Managers.Story.CreateTaskItem(task);
@@ -96,37 +107,40 @@ public class StoryItem : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (!skipDayItem) 
+        if (!Managers.Narrative.isReading)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (!skipDayItem)
             {
-                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-                if (hit.collider != null)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    foreach(StoryItem i in item)
+                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+                    if (hit.collider != null)
                     {
-                        if(hit.transform.gameObject == i.gameObject)
+                        foreach (StoryItem i in item)
                         {
-                            if (i.altBehaviour)
+                            if (hit.transform.gameObject == i.gameObject)
                             {
-                                i.eventType.Invoke();
-                            }
-                            else
-                            {
-                                CompleteTask(i);
+                                if (i.altBehaviour)
+                                {
+                                    i.eventType.Invoke();
+                                }
+                                else
+                                {
+                                    CompleteTask(i);
+                                }
                             }
                         }
                     }
                 }
             }
-        }
-        else
-        {
-            if (growButton == null)
+            else
             {
-                growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
-                growButton?.onClick.AddListener(ButtonTask);
-                growButton?.onClick.AddListener(PassTime);
+                if (growButton == null)
+                {
+                    growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
+                    growButton?.onClick.AddListener(ButtonTask);
+                    growButton?.onClick.AddListener(PassTime);
+                }
             }
         }
     }

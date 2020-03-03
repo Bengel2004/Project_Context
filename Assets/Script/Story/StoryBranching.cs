@@ -21,10 +21,10 @@ public class StoryBranching : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            Managers.Story.view.Toggle();
-        }
+        //if (Input.GetKeyDown(KeyCode.Tab))
+        //{
+        //    Managers.Story.view.Toggle();
+        //}
     }
 
     public TaskShow CreateTaskItem(string _taskText)

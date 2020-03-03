@@ -21,12 +21,6 @@ public class ShowOrganism : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        //If instance already exists
-        else if (Instance != this && Instance != null)
-        {
-            //Destroy this, this applies our singleton pattern so there can only be one instance of Singleton_Controller.
-            Destroy(gameObject);
-        }
     }
 
     // Update is called once per frame
