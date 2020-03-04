@@ -67,8 +67,8 @@ public class StoryItem : MonoBehaviour
 
         if (showText && enabled)
         {
-            Managers.Narrative.NewNarrative(narItem);
             Debug.Log("test", gameObject);
+            Managers.Narrative.NewNarrative(narItem);
         }
     }
     private void OnEnable()
