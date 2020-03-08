@@ -9,6 +9,7 @@ public class Narrative : MonoBehaviour
 {
     private int currentText;
     private NarrativeItem narItem;
+    private AudioSource source;
 
     [SerializeField]
     private UIView view;
@@ -22,7 +23,7 @@ public class Narrative : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,6 +50,10 @@ public class Narrative : MonoBehaviour
         {
             personText.text = narItem.narrativeObj[currentText].narrativeText;
             personImg.sprite = narItem.narrativeObj[currentText].narrativePerson;
+            if(narItem.narrativeObj[currentText].clip != null)
+            {
+                source.PlayOneShot(narItem.narrativeObj[currentText].clip);
+            }
         }
         else
         {

@@ -37,9 +37,9 @@ public class StoryItem : MonoBehaviour
 
 
     [SerializeField]
-    private bool showText;
-    [TextArea] // maak if else editore xtension als isLastItem true is dan laat hij dit zien;
-    public string endOfDayText;
+    public bool showText;
+    [HideInInspector] // maak if else editore xtension als isLastItem true is dan laat hij dit zien;
+    public string endOfDayText;  // Delete deze later
     [SerializeField]
     private UIView infoView;
     [SerializeField]
@@ -47,14 +47,14 @@ public class StoryItem : MonoBehaviour
 
     [Header("Events")]
     [SerializeField]
-    private bool startEventBool;
+    public bool startEventBool;
     public UnityEvent startEvent;
     [SerializeField]
-    private bool endEventBool;
+    public bool endEventBool;
     public UnityEvent endEvent;
 
     [SerializeField]
-    private bool altBehaviour;
+    public bool altBehaviour;
     public UnityEvent eventType;
     
     

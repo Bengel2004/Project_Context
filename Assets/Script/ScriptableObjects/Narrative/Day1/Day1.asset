@@ -18,18 +18,24 @@ MonoBehaviour:
       nice looking lady that will take care of you from this day forward. She holds
       you tight while walking away from the store, she introduces herself to you
       as Andrea.  '
+    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She talks about the nice spot she reserved for you and all your
       new friends on the farm that you will get to know, she chatters on and on and
       hums, until she suddenly stops.
+    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Look, this will be your new home!
+    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She walks to a spot with a hole in it and a lot of sun. She put
       you down in the hole and scoops sand all around you, until you are settled
       quite nicely.
+    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "Andrea: \u201CYou are my very first little pumpkin sprout and
       I will take care of you in the best way possible.\u201D"
+    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Andrea waters you and together with the sun you are able to grow.
+    clip: {fileID: 0}
