@@ -6,6 +6,7 @@ using UnityEditor;
 [CustomEditor(typeof(StoryItem))]
 public class StoryItemEditor : Editor
 {
+    /*
     public override void OnInspectorGUI()
     {
         var myScript = target as StoryItem;
@@ -61,4 +62,5 @@ public class StoryItemEditor : Editor
             this.serializedObject.ApplyModifiedProperties();
         }
     }
+    */
 }

@@ -17,6 +17,8 @@ public class OutLine : MonoBehaviour
     private int horizontal;
     private int vertical;
 
+    public bool showOutline;
+
     private void Awake()
     {
         srenderer = GetComponent<SpriteRenderer>();
@@ -27,21 +29,27 @@ public class OutLine : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        SetOutLineMaterial(true);
+        if (showOutline)
+        {
+            SetOutLineMaterial(true);
 
-        horizontal = GetAwayFromCenterHorizontal(gameObject);
-        vertical = GetAwayFromCenterVertical(gameObject);
+            horizontal = GetAwayFromCenterHorizontal(gameObject);
+            vertical = GetAwayFromCenterVertical(gameObject);
+        }
     }
 
     private void OnMouseExit()
     {
-        if (ObjectManager.Inst.PresentForcusObject != null)
+        if (showOutline)
         {
-            if (!ObjectManager.Inst.PresentForcusObject.Equals(this))
+            if (ObjectManager.Inst.PresentForcusObject != null)
+            {
+                if (!ObjectManager.Inst.PresentForcusObject.Equals(this))
+                    SetOutLineMaterial(false);
+            }
+            else
                 SetOutLineMaterial(false);
         }
-        else
-            SetOutLineMaterial(false);
     }
 
     private void OnMouseDown()

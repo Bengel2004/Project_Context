@@ -56,8 +56,8 @@ public class StoryItem : MonoBehaviour
     [SerializeField]
     public bool altBehaviour;
     public UnityEvent eventType;
-    
-    
+
+    private Outline thisOutline;
 
     private void Awake()
     {
@@ -73,6 +73,15 @@ public class StoryItem : MonoBehaviour
     }
     private void OnEnable()
     {
+        foreach (StoryItem i in item)
+        {
+            OutLine _temp = i.GetComponent<OutLine>();
+            if(_temp != null)
+            {
+                _temp.showOutline = true;
+            }
+        }
+
         if (showText && enabled)
         {
             Debug.Log("test", gameObject);
@@ -97,6 +106,15 @@ public class StoryItem : MonoBehaviour
     }
     private void OnDisable()
     {
+        foreach (StoryItem i in item)
+        {
+            OutLine _temp = i.GetComponent<OutLine>();
+            if (_temp != null)
+            {
+                _temp.showOutline = false;
+            }
+        }
+
         if (skipDayItem)
         {
             growButton?.onClick.RemoveListener(ButtonTask);
