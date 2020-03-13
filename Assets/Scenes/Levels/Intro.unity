@@ -24052,7 +24052,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 68.8
+  m_fontSize: 68.75
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -30428,7 +30428,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 633170245}
+      - m_Target: {fileID: 10001301}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
