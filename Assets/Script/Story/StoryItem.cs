@@ -13,6 +13,7 @@ public class StoryItem : MonoBehaviour
     [SerializeField]
     private List<StoryItem> item = new List<StoryItem>();
     public string task;
+    public AudioClip clip;
 
     [Header("Day Settings")]
     [SerializeField]
@@ -138,6 +139,10 @@ public class StoryItem : MonoBehaviour
                         {
                             if (hit.transform.gameObject == i.gameObject)
                             {
+                                if (i.clip != null)
+                                {
+                                    Managers.AudioPlayer.source.PlayOneShot(i.clip);
+                                }
                                 if (i.altBehaviour)
                                 {
                                     i.eventType.Invoke();
@@ -180,6 +185,7 @@ public class StoryItem : MonoBehaviour
         PassTime();
         _storyItem.enabled = true;
         taskItem.FinishTask();
+        Destroy(taskItem.gameObject);
     }
 
     public void ButtonTask()

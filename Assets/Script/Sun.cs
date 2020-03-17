@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Sun : MonoBehaviour
 {
     private const int m_MaxSunAngle = 150;
+    public Image Day;
+    public Image Night;
 
     // Start is called before the first frame update
     public void PassOneDay()
@@ -23,6 +26,7 @@ public class Sun : MonoBehaviour
 
         while (timer <= t)
         {
+            
             float eulerZ = Mathf.Lerp((angleUnit * start), (angleUnit * end), timer / t);
 
             transform.parent.rotation = Quaternion.Euler(0, 0, -eulerZ);

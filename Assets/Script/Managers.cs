@@ -7,6 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(TimeManager))]
 [RequireComponent(typeof(StoryBranching))]
 [RequireComponent(typeof(Narrative))]
+[RequireComponent(typeof(AudioPlayer))]
 [DefaultExecutionOrder(-1)]
 public class Managers : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Managers : MonoBehaviour
     public static TimeManager time = null;
     public static StoryBranching Story = null;
     public static Narrative Narrative = null;
+    public static AudioPlayer AudioPlayer = null;
 
     private void Awake()
     {
@@ -37,6 +39,7 @@ public class Managers : MonoBehaviour
         time = GetComponent<TimeManager>();
         Story = GetComponent<StoryBranching>();
         Narrative = GetComponent<Narrative>();
+        AudioPlayer = GetComponent<AudioPlayer>();
 
         #endregion
 

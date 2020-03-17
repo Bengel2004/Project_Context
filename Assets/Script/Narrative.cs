@@ -18,12 +18,12 @@ public class Narrative : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI personText;
 
-
     public bool isReading = false;
     // Start is called before the first frame update
     void Start()
     {
         source = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -34,6 +34,7 @@ public class Narrative : MonoBehaviour
 
     public void NewNarrative(NarrativeItem _narItem)
     {
+        CameraController.ToggleFollowStatic();
         view.Show();
         currentText = 0;
         isReading = true;
@@ -59,6 +60,7 @@ public class Narrative : MonoBehaviour
         {
             isReading = false;
             view.Hide();
+            CameraController.ToggleFollowStatic();
          //   storItem.endEvent.Invoke();
         }
     }
