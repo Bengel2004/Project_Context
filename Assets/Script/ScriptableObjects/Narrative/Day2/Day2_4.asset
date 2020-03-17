@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
+  m_Name: Day2_4
+  m_EditorClassIdentifier: 
+  narrativeObj:
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: "You already have several flowers! I am so happy that you are
+      doing so well pumpkin. Between me and my husband, you know, Juan it isn\u2019t
+      going so well. "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: 'We are almost out of food, but our children need to eat. We think
+      differently on how to achieve that. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: "He keeps on telling me that the farm doesn\u2019t compete enough
+      with other farms. Oh well, I see you tomorrow pumpkin."
+    clip: {fileID: 0}

@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
-  m_Name: Day2_2
+  m_Name: Day5_5
   m_EditorClassIdentifier: 
   narrativeObj:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You became the bee, but a bird attacks out of nowhere and scoops
-      you from the sky!  '
+    narrativeText: "Inequality between man and woman in the agriculture still exist\u2026
+      Please go to https://www.cgiar.org/ for more info. "
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'When you open your eyes, you notice that your consciousness has
-      passed on to the bird. '
+    narrativeText: The End
     clip: {fileID: 0}

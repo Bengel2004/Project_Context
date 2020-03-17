@@ -34,35 +34,35 @@ MonoBehaviour:
     narrativeText: "I said maybe we should focus more on our own family in these
       hard times, but he didn\u2019t want anything to do with it."
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'She shakes her head to shake away her worries. '
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: I have also good news, a miracle happened today!
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'When I came back from the field, my bucket was completely filled!
       You are doing so well, here you can have some too. '
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
     narrativeText: Afterwards she takes some of your fruits.
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "Meanwhile the landowner of Andrea\u2019s farm comes to visit. "
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Good evening sir, I have my share from the last couple of days
       right here. She gives some of your pumpkins to him.
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: Well well, let me see, these are some fine vegetables. You finally
       grew some quality.
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "If you didn\u2019t have anything to share today, I could only
       give you one more week before shutting you out of the land."
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: 73a127227ff7e2748b802dc89d6717d6, type: 3}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "Luckily for you, this didn\u2019t happen. Have a nice evening
       Andrea see you next week. "
     clip: {fileID: 0}

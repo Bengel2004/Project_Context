@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
+  m_Name: GoOutsideDay5_3
+  m_EditorClassIdentifier: 
+  narrativeObj:
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: 'Here you go, these are the latest pumpkins from our farm. Hopefully
+      they are what you are looking for. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
+    narrativeText: Yes these are perfect, same quality as last time. I will come
+      back after two weeks and expect to get the same.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'On his way to the door he comes across the counter and sees you
+      (the money) lying around on the table. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
+    narrativeText: "I thought you said that you didn\u2019t have so much money? Where
+      does this money come from? "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
+    narrativeText: 'You could have given the tax all along, instead you give me what?
+      Traded fruit? '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: Andrea looks over, confusing.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: "I actually really don\u2019t know where this comes from Sir!
+      I would never lie to you! "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
+    narrativeText: 'I think this looks very clear to me. You wanted to gain some
+      more money to take care of your family and evade the taxation. FRAUDE! '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
+    narrativeText: I will take this and set you out! By the end of next week I want
+      you gone!
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'He walks away angry without listening. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: "But, I really don\u2019t understand, this money isn\u2019t mine!
+      Please, come back, we can solve this another way!"
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'She falls on her knees. Powerless she holds her hands in front
+      of her face and she sobs. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
+    narrativeText: Wh-hy is this hap-pening?
+    clip: {fileID: 0}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
+  m_Name: LandrightsDay5_3
+  m_EditorClassIdentifier: 
+  narrativeObj:
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You have to go further as a cat. You decide to follow the side
+      of the road to the village. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: Not many cars pass by the road, but suddenly a truck passes by
+      on full speed. You focus and make yourself ready to jump.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "Then at the right moment you feel the huge colossal pass by.
+      You didn\u2019t jump high enough and end up getting your nails into the canvas
+      of the truck to stick on to it."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "You try to get on top of the truck, but this doesn\u2019t go
+      the way you wanted to. The canvas rips off and you almost fall."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You try it one more time and set your loose paw onto the canvas
+      above you. Then you make a leap and end up on top. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'There you can rest to regain your strength. While enjoying the
+      rest of the ride, you see a factory through the woods. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: A truck drives away from it with a logo on the side. You look
+      closer, it is the logo of the printing factory.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: You immediately jump of the truck and run straight to the corporation.
+      There is a lot of security around the building.
+    clip: {fileID: 0}

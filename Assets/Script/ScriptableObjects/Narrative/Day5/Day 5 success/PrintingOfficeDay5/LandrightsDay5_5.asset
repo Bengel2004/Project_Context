@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
+  m_Name: LandrightsDay5_5
+  m_EditorClassIdentifier: 
+  narrativeObj:
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You eventually end up in a little office, where the land rights
+      are being pressed. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: You go into the cartridge of the printer and you drenched yourself
+      in ink. The signing column on top of the paper pile is still blank.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "You walk in circles to write down Andrea\u2019s name. The only
+      thing left to do is getting the paper back to the farm."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You call the other ants, a few moments pass and then suddenly
+      a wave of ants come to help you out. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "The paper is carried by so many, that you feel blessed. You don\u2019t
+      feel much, but the feeling of solidarity is passing through. "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: They all helped out just like all the other animals form the last
+      few days. Everyone including the paper ended up outside.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "It will be a long way home, but then the wind blows abruptly
+      harsh. The paper flies away, you don\u2019t think and transfer into the paper."
+    clip: {fileID: 0}
