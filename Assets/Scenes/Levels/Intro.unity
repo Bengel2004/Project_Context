@@ -29699,8 +29699,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-  - {fileID: 10001299}
-  task: Find The dog
+  - {fileID: 713370533}
+  task: Grow for the day
   clip: {fileID: 0}
   isLastItem: 0
   skipDayItem: 1
@@ -29718,7 +29718,7 @@ MonoBehaviour:
     flowers a bee passes by and sits on your flower.\r\n"
   infoView: {fileID: 1142639136}
   infoViewText: {fileID: 1981619383}
-  startEventBool: 0
+  startEventBool: 1
   startEvent:
     m_PersistentCalls:
       m_Calls:
@@ -48691,8 +48691,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-  - {fileID: 10001299}
-  task: Find The dog
+  - {fileID: 713370533}
+  task: Grow for the day
   clip: {fileID: 0}
   isLastItem: 0
   skipDayItem: 1
@@ -48710,7 +48710,7 @@ MonoBehaviour:
     flowers a bee passes by and sits on your flower.\r\n"
   infoView: {fileID: 1142639136}
   infoViewText: {fileID: 1981619383}
-  startEventBool: 0
+  startEventBool: 1
   startEvent:
     m_PersistentCalls:
       m_Calls:

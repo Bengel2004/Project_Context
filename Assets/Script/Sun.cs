@@ -40,7 +40,7 @@ public class Sun : MonoBehaviour
                 _color.a = Mathf.Lerp(0, 100, timer / t);
                 Day.color = _color;
             }
-            if (start > (end / 4))
+            if (start > (end / 1.5f))
             {
                 Color _color = Night.color;
                 _color.a = Mathf.Lerp(0, 100, timer / t);
