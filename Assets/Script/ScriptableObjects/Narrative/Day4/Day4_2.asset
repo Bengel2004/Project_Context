@@ -10,21 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1126fdf29a07386409086195dd5ff4ff, type: 3}
-  m_Name: Day4
+  m_Name: Day4_2
   m_EditorClassIdentifier: 
   narrativeObj:
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: It is sunny again in Caracoli, Andrea gives you water an works
-      on the land. There are some unusual loud noises coming from the forest nearby
-      this morning.
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: Suddenly a red bearded titi jumps behind you, it looks very scared.
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You became the monkey and go into the forest, you jump from tree
-      to tree until you come across an open field. '
-    clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You are sitting high up in the tree, on the side of a large branch.
       Form there you see 3 giant vehicles and a field with a lot of cut down trees. '

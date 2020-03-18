@@ -18,6 +18,15 @@ MonoBehaviour:
       level. Different smells come from everywhere.
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: You open your eyes and sense the nearby flower stalls on another
-      level. Different smells come from everywhere.
+    narrativeText: 'You decide to stay in the shadows before trying to get some flowers.
+      In the distance you see a tower stacked full of flower buckets, You sneak behind
+      it and give it a hard push. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: While the tower collapses, you get your chance and take a water
+      bucket full of flower bulbs.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'Then you run away as fast as possible, when back on the farm
+      you lay the bucket on the porch for Andrea to use. '
     clip: {fileID: 0}

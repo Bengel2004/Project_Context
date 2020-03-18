@@ -14,7 +14,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeObj:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You decide to stay in the shadows before trying to get some flowers.
-      In the distance you see a tower stacked full of flower buckets, You sneak behind
-      it and give it a hard push. '
+    narrativeText: I love that you are growing so much and doing your best for me,
+      talking to you frees me of my worries, but I had a fight again with Juan, little
+      pumpkin.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "He says that I\u2019m not working hard enough, but because of
+      the drought, it is not possible for plants to grow hard enough!"
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "I said maybe we should focus more on our own family in these
+      hard times, but he didn\u2019t want anything to do with it."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'She shakes her head to shake away her worries. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: I have also good news, a miracle happened today!
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: When I came back from the field, my porch was stacked with bulbs
+      and water and thus had food for tonight.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: You are also doing so well, here have some water too.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: She says while she takes some of your fruits.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "Meanwhile the landowner of Andrea\u2019s farm comes to visit."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'Good evening sir, I have my share from the last couple of days
+      right here. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: She gives some of your pumpkins to him.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: Well well, let me see, these are some fine vegetables. You finally
+      grew some quality.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "If you didn\u2019t have anything to share today, I could only
+      give you one more week before shutting you out of the land."
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "Luckily for you, this didn\u2019t happen. Have a nice evening
+      Andrea, see you next week."
     clip: {fileID: 0}
