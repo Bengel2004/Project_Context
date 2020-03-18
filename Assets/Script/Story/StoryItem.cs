@@ -83,6 +83,8 @@ public class StoryItem : MonoBehaviour
             }
         }
 
+
+
         if (showText && enabled)
         {
             Debug.Log("test", gameObject);
@@ -97,6 +99,12 @@ public class StoryItem : MonoBehaviour
         Debug.Log(gameObject.name);
         sun = FindObjectOfType<Sun>();
         taskItem = Managers.Story.CreateTaskItem(task);
+
+        if (currentSunPos == 0)
+        {
+            if (sun != null)
+                sun.ResetDay();
+        }
 
         if (skipDayItem)
         {
@@ -186,6 +194,8 @@ public class StoryItem : MonoBehaviour
         _storyItem.enabled = true;
         taskItem.FinishTask();
         Destroy(taskItem.gameObject);
+
+        
     }
 
     public void ButtonTask()

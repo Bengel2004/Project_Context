@@ -22,6 +22,7 @@ public class Plant : MonoBehaviour
 
     private void Update()
     {
+        
         if (Managers.Game.plantLevel < plantSprites.Length)
         {
             thisSprite.sprite = plantSprites[Managers.Game.plantLevel];
