@@ -21,3 +21,28 @@ MonoBehaviour:
     narrativeText: "Because of it you didn\u2019t feel the pain when you fell onto
       the ground, but instead you became unconscious. "
     clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: Time passed and when you wake up again you see, that you are in
+      a huge building.
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "There are treadmills and machine\u2019s everywhere and you are
+      on one of them. You look ahead and see a saw that cuts down trees before you. "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: "You can\u2019t do anything in this state, you close your eyes
+      and accepted your fate, but when you go through you only feel some stings,
+      when being chopped up. "
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: You are still alive, immediately after you end up in the shredder.
+      Even that did not kill you, you are confused, how is this possible?
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'After the whole process, you ended up as a piece of paper, You
+      can become objects too?! '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You are put in a box and after a lot of shakes and trembles you
+      are packed out in a printing office. '
+    clip: {fileID: 0}
