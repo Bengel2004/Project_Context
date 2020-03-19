@@ -9,6 +9,7 @@ public class Narrative : MonoBehaviour
 {
     private int currentText;
     private NarrativeItem narItem;
+    [SerializeField]
     private AudioSource source;
 
     [SerializeField]
@@ -20,13 +21,15 @@ public class Narrative : MonoBehaviour
 
     public bool isReading = false;
     // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
-        source = GetComponent<AudioSource>();
-        
+        if(source == null)
+        {
+            source = GetComponent<AudioSource>();
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -39,7 +42,6 @@ public class Narrative : MonoBehaviour
         currentText = 0;
         isReading = true;
         narItem = _narItem;
-
         personText.text = narItem.narrativeObj[currentText].narrativeText;
         personImg.sprite = narItem.narrativeObj[currentText].narrativePerson;
     }
@@ -53,6 +55,7 @@ public class Narrative : MonoBehaviour
             personImg.sprite = narItem.narrativeObj[currentText].narrativePerson;
             if(narItem.narrativeObj[currentText].clip != null)
             {
+                Debug.Log("Play Audio");
                 source.PlayOneShot(narItem.narrativeObj[currentText].clip);
             }
         }

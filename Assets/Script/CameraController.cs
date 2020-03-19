@@ -36,11 +36,11 @@ public class CameraController : MonoBehaviour
 
     public static void ToggleFollowStatic()
     {
-        enableFollow = !enableFollow;
+        //enableFollow = !enableFollow;
     }
 
     public void ToggleFollow()
     {
-        enableFollow = !enableFollow;
+       // enableFollow = !enableFollow;
     }
 }
