@@ -16,7 +16,7 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You became the bee, but a bird attacks out of nowhere and scoops
       you from the sky!  '
-    clip: {fileID: 8300000, guid: 32b3e673b3ddeb543bfe8b4d88cc6a92, type: 3}
+    clip: {fileID: 8300000, guid: 3bf91f9edf726b143a64c9da437a153c, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'When you open your eyes, you notice that your consciousness has
       passed on to the bird. '

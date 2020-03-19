@@ -20115,7 +20115,7 @@ MonoBehaviour:
   currentSunPos: 1
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
-  narItem: {fileID: 11400000, guid: 7688d81b69f87bc4bbdae0b5ec820015, type: 2}
+  narItem: {fileID: 11400000, guid: b7627824ca141694eb8bd3abf5263db9, type: 2}
   growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
@@ -28527,7 +28527,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800993910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000047683716, y: -0.00000011920929, z: -10}
+  m_LocalPosition: {x: 0.00000023841858, y: -0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1743900274}
@@ -46802,7 +46802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944623381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000047683716, y: -0.00000011920929, z: -10}
+  m_LocalPosition: {x: 0.00000023841858, y: -0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
