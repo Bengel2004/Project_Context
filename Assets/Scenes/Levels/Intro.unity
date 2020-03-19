@@ -243,7 +243,7 @@ MonoBehaviour:
   item:
   - {fileID: 633170244}
   task: Grow for the day
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 2b2ef322fe1944c4cab692f3d4a6c41c, type: 3}
   isLastItem: 0
   skipDayItem: 0
   currentSunPos: 2
@@ -14003,7 +14003,7 @@ MonoBehaviour:
   item:
   - {fileID: 328869568}
   task: Find The Bird
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: adc5b81170191644c9fac566a14fa62d, type: 3}
   isLastItem: 0
   skipDayItem: 0
   currentSunPos: 1
@@ -30017,7 +30017,7 @@ MonoBehaviour:
   - {fileID: 1271484544}
   - {fileID: 2086912608}
   task: Choose your option
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: cabeb719ea9cc4c489914f85a3ef24e4, type: 3}
   isLastItem: 0
   skipDayItem: 0
   currentSunPos: 1
@@ -36067,7 +36067,7 @@ MonoBehaviour:
   - {fileID: 1160607391}
   - {fileID: 673041198}
   task: Choose your option
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: adc5b81170191644c9fac566a14fa62d, type: 3}
   isLastItem: 0
   skipDayItem: 0
   currentSunPos: 1
@@ -58508,8 +58508,19 @@ MonoBehaviour:
   startEventBool: 1
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
-  endEventBool: 1
+      m_Calls:
+      - m_Target: {fileID: 1933440355}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  endEventBool: 0
   endEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -61196,7 +61207,7 @@ MonoBehaviour:
     flowers a bee passes by and sits on your flower.\r\n"
   infoView: {fileID: 1142639136}
   infoViewText: {fileID: 1981619383}
-  startEventBool: 0
+  startEventBool: 1
   startEvent:
     m_PersistentCalls:
       m_Calls: []
