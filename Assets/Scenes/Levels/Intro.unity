@@ -241,13 +241,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-  - {fileID: 633170244}
-  task: Get flower bulbs
+  - {fileID: 713370533}
+  task: Grow for the day
   clip: {fileID: 0}
   isLastItem: 0
-  skipDayItem: 0
-  currentSunPos: 1
-  DaySunPos: 4
+  skipDayItem: 1
+  currentSunPos: 2
+  DaySunPos: 3
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: 551148224371e2f408e8c8520b5d5d4f, type: 2}
   showText: 1
@@ -259,10 +259,32 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
-  endEventBool: 0
+  endEventBool: 1
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 10001301}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 10001302}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   altBehaviour: 0
   eventType:
     m_PersistentCalls:
@@ -19770,7 +19792,7 @@ MonoBehaviour:
   currentSunPos: 1
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
-  narItem: {fileID: 11400000, guid: b7627824ca141694eb8bd3abf5263db9, type: 2}
+  narItem: {fileID: 0}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -25501,7 +25523,7 @@ MonoBehaviour:
   clip: {fileID: 0}
   isLastItem: 0
   skipDayItem: 0
-  currentSunPos: 0
+  currentSunPos: 2
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: a53323e6713738a44b95d6303aef9253, type: 2}
@@ -28854,8 +28876,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1833525559}
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 343946081}
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28865,18 +28887,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1833525558}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  endEventBool: 1
+  endEventBool: 0
   endEvent:
     m_PersistentCalls:
       m_Calls:
@@ -28925,7 +28936,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.2, y: 12.95}
+    oldSize: {x: 27.09, y: 16.322783}
     newSize: {x: 8.31, y: 7.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -29648,7 +29659,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 6b958f99aec15a640a490dd2ef99a3ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e94a85e0595ac2e4cab875d083f7e1e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -32564,7 +32575,7 @@ MonoBehaviour:
   clip: {fileID: 0}
   isLastItem: 0
   skipDayItem: 0
-  currentSunPos: 0
+  currentSunPos: 2
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 7458eeb5142ae394194482066cae4e03, type: 2}
@@ -32578,10 +32589,32 @@ MonoBehaviour:
     flowers a bee passes by and sits on your flower.\r\n"
   infoView: {fileID: 1142639136}
   infoViewText: {fileID: 1981619383}
-  startEventBool: 0
+  startEventBool: 1
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1406202116}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1406202117}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   endEventBool: 0
   endEvent:
     m_PersistentCalls:
