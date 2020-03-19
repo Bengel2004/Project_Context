@@ -250,6 +250,7 @@ MonoBehaviour:
   DaySunPos: 3
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: 551148224371e2f408e8c8520b5d5d4f, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -12283,6 +12284,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: 0ab2a89432cd58b4b8f1ad23c683229f, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: When you open your eyes, you notice that your consciousness has passed
     on to the bird.
@@ -13974,6 +13976,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: 4c7b835d83a9da547b798d27ef27755b, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -14074,6 +14077,7 @@ MonoBehaviour:
   DaySunPos: 1
   organism: {fileID: 11400000, guid: 523085d97e176ec4b8e464e543d616cc, type: 2}
   narItem: {fileID: 11400000, guid: bbb4407195eecab46a6caba9de56be4c, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day in Caracoli, you have been bought by a small nice
     looking lady that will take care of you from this day forward. She holds you
@@ -19793,6 +19797,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 0}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -22874,6 +22879,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: c42cc8e2d4364d04b93b37d4b0fb0e4f, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -25527,6 +25533,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: a53323e6713738a44b95d6303aef9253, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -28117,6 +28124,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 8d7cc165298fbd745835ec8bba385cc1, type: 2}
   narItem: {fileID: 11400000, guid: 6714735b2fa5b8a43a0db4d3fa9d1c90, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -28321,6 +28329,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: caf29af287b80f341b51511421d7079b, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -28845,6 +28854,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: c529112213f468e4e9bfa315a28ad725, type: 2}
+  growButton: {fileID: 246381521}
   showText: 0
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -28885,7 +28895,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   endEventBool: 0
   endEvent:
@@ -29808,6 +29818,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: ad216768256cc734ea3ad6599536c4c2, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -32579,6 +32590,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 7458eeb5142ae394194482066cae4e03, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -35232,6 +35244,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 2811b43aa44196a4ca0b97ba113ac4c3, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -35947,6 +35960,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: 7458eeb5142ae394194482066cae4e03, type: 2}
+  growButton: {fileID: 246381521}
   showText: 0
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '
@@ -36625,6 +36639,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
   narItem: {fileID: 11400000, guid: 12b728805d1fdf7448b1f5033119aa5b, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -36739,6 +36754,7 @@ MonoBehaviour:
   DaySunPos: 1
   organism: {fileID: 11400000, guid: 208655cc5be23b5468cb2a727f3a38e1, type: 2}
   narItem: {fileID: 11400000, guid: bbb4407195eecab46a6caba9de56be4c, type: 2}
+  growButton: {fileID: 0}
   showText: 0
   endOfDayText: 
   infoView: {fileID: 1142639136}
@@ -39463,6 +39479,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 13573db627032704c80d9be26a83b758, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -43044,6 +43061,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: ed1b98aee072164449cafa4eec776c02, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'Now you break the branch with your beak and weight. You change back
     to yourself and feel the sunlight on your leaves!
@@ -44485,6 +44503,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 258d15d5ad7d7254d8c4afc6a7cd5f91, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -44607,6 +44626,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 34c80057c9826d54c9ea40a81e17706f, type: 2}
   narItem: {fileID: 11400000, guid: 12b728805d1fdf7448b1f5033119aa5b, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'Now you break the branch with your beak and weight. You change back
     to yourself and feel the sunlight on your leaves!
@@ -54520,6 +54540,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: 85b9aff6b8fa3504cb36a53e134f7aa5, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -54843,6 +54864,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 2fc1ce266f6d76b4193866666c5e6abb, type: 2}
   narItem: {fileID: 11400000, guid: ba7f82c064b340a4abce8f17e03a6d58, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: "It is a sunny day again in Caracoli, Andrea starts her day with
     watering you...\r\nAndrea: Oh sweet pumpkin, I have some bad news, this will
@@ -57492,6 +57514,7 @@ MonoBehaviour:
   DaySunPos: 4
   organism: {fileID: 0}
   narItem: {fileID: 11400000, guid: 79ebde016a6307d42a8c0665f947a7ee, type: 2}
+  growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
     you from the sky! '

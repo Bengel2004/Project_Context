@@ -32,7 +32,6 @@ public class CameraController : MonoBehaviour
             } 
             */
         }
-        Debug.Log(enableFollow);
     }
 
     public static void ToggleFollowStatic()

@@ -33,6 +33,7 @@ public class StoryItem : MonoBehaviour
     [SerializeField]
     private NarrativeItem narItem;
 
+    [SerializeField]
     private Button growButton;
     private TaskShow taskItem;
 
@@ -108,9 +109,10 @@ public class StoryItem : MonoBehaviour
 
         if (skipDayItem)
         {
-            growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
+            //growButton = GameObject.Find("UIGrowButton")?.GetComponent<Button>();
             growButton?.onClick.AddListener(ButtonTask);
             growButton?.onClick.AddListener(PassTime);
+            growButton.interactable = true;
         }
     }
     private void OnDisable()
@@ -188,7 +190,12 @@ public class StoryItem : MonoBehaviour
         {
             endEvent.Invoke();
         }
+        if (skipDayItem)
+        {
+            growButton.interactable = false;
+        }
         
+
         this.enabled = false;
         PassTime();
         _storyItem.enabled = true;
