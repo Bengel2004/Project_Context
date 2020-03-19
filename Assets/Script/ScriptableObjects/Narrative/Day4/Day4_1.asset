@@ -21,7 +21,3 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Suddenly a red bearded titi jumps behind you, it looks very scared.
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You became the monkey and go into the forest, you jump from tree
-      to tree until you come across an open field. '
-    clip: {fileID: 0}

@@ -14,19 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeObj:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You are sitting high up in the tree, on the side of a large branch.
-      Form there you see 3 giant vehicles and a field with a lot of cut down trees. '
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'For a better view you decide to turn into the tree itself. Branches
-      and riven of wood are lying everywhere, it is a mess. '
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: The noise is coming from the largest vehicle, it looks like a
-      heavy bulldozer and just a little further are some people with chainsaws, who
-      are also cutting down trees.
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: All of a sudden the tree you are in is shaking heavily. You look
-      down and see that the tree is falling!
+    narrativeText: 'You became the monkey and go into the forest, you jump from tree
+      to tree until you come across an open field. '
     clip: {fileID: 0}
