@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeObj:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
+    narrativeText: 'You transfer into it and sprint as fast as his little paws can
+      bring you. '
+    clip: {fileID: 0}
+  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "You jump to the birds to scare them away and save Andrea\u2019s
       seeds. The only problem that is left is that the birds are all gone now."
     clip: {fileID: 0}

@@ -17,17 +17,3 @@ MonoBehaviour:
     narrativeText: 'Closeby are a lot of bees that are pollinating the flowers, you
       decide to become a bee and look around on the farm. '
     clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'Maybe you can even help Andrea outside of the farm. You look
-      everywhere in the town until, at one moment you see a glowing object underneath
-      a market stand. '
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You come closer for a better look and see a piece of money on
-      the ground. It is glowing? Just like all the other animals and plants you could
-      transfer into.  '
-    clip: {fileID: 0}
-  - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
-    narrativeText: 'You decide to transfer into the money and figure that you are
-      lifelessly lying on the ground, but this could help Andrea with her farming. '
-    clip: {fileID: 0}
