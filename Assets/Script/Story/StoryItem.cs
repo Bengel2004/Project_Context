@@ -143,27 +143,33 @@ public class StoryItem : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-                    if (hit.collider != null)
-                    {
+                    
                         foreach (StoryItem i in item)
                         {
-                            if (hit.transform.gameObject == i.gameObject)
+                            if (hit.collider != null)
                             {
-                                if (i.clip != null)
+                                if (hit.transform.gameObject == i.gameObject)
                                 {
-                                    Managers.AudioPlayer.source.PlayOneShot(i.clip);
-                                }
-                                if (i.altBehaviour)
-                                {
-                                    i.eventType.Invoke();
-                                }
-                                else
-                                {
-                                    CompleteTask(i);
+                                    if (i.clip != null)
+                                    {
+                                        Managers.AudioPlayer.source.PlayOneShot(i.clip);
+                                    }
+                                    if (i.altBehaviour)
+                                    {
+                                        i.eventType.Invoke();
+                                    }
+                                    else
+                                    {
+                                        CompleteTask(i);
+                                    }
                                 }
                             }
+                            else if(i.GetComponent<SpriteRenderer>() == null && item.Count == 1)
+                            {
+                                CompleteTask(i);
+                            }
                         }
-                    }
+                    
                 }
             }
             else
