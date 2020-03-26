@@ -16,4 +16,4 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You quickly look around and outside there is a bird closeby, you
       transfer into it and see that you are at the land rights press office!
-    clip: {fileID: 8300000, guid: 61beb325d4ba94e48846b50c6f337302, type: 3}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

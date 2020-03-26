@@ -16,7 +16,7 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You open your eyes and sense the nearby flower stalls on another
       level. Different smells come from everywhere.
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You decide to stay in the shadows before trying to get some flowers.
       In the distance you see a tower stacked full of flower buckets, You sneak behind

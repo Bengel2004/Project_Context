@@ -35,7 +35,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: df3af8e876dfeb94587074f7d2967079, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Andrea looks over, confusing.
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "I actually really don\u2019t know where this comes from Sir!
       I would never lie to you! "

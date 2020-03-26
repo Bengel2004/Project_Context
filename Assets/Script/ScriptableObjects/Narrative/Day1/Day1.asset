@@ -31,7 +31,7 @@ MonoBehaviour:
     narrativeText: She walks to a spot with a hole in it and a lot of sun. She put
       you down in the hole and scoops sand all around you, until you are settled
       quite nicely.
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: You are my very first little pumpkin sprout and I will take care
       of you in the best way possible.

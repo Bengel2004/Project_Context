@@ -17,45 +17,45 @@ MonoBehaviour:
     narrativeText: "You decide to scoop from the lake and fly back to water yourself.
       You figured that Andrea couldn\u2019t use the water, because it is not clean
       enough, but you can grow again. "
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'I love that you are growing so much and doing your best for me,
       talking to you frees me of my worries, but I had a fight again with Juan, little
       pumpkin. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "He says that I\u2019m not working hard enough, but because of
       the drought, it is not possible for plants to grow hard enough!"
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "I said maybe we should focus more on our own family in these
       hard times, but he didn\u2019t want anything to do with it."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'She shakes her head to shake away her worries. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Luckily you grew some food for my family.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: And she takes some of your fruits to cook diner.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "Meanwhile the landowner of Andrea\u2019s farm comes to visit."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "Good evening sir, I don\u2019t have anything to share from the
       last couple of days. The drought wa.. "
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "WHAT! What do you think this is? A hotel? This is a farm where
       you have to work, you can\u2019t live here for free"
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7dd95d7b1f86bee48ab4a98556e4c8e4, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: I give you one more week to grow some quality pumpkins, if not,
       I will and shall throw you out!
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dacd57ae0bb2dfe42baaf3dd165cf075, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'He walks away angry, without listening what Andrea had to say
       and you watch her sobbing while she walks back inside. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

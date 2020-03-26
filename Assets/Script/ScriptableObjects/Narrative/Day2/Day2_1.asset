@@ -29,4 +29,4 @@ MonoBehaviour:
     narrativeText: "Nevertheless the sun has been blocked by another plant, if there
       was only a way to break that branch\u2026 Since you grew some flowers a bee
       passes by and sits on your flower."
-    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

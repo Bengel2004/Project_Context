@@ -20,7 +20,7 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Not many cars pass by the road, but suddenly a truck passes by
       on full speed. You focus and make yourself ready to jump.
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "Then at the right moment you feel the huge colossal pass by.
       You didn\u2019t jump high enough and end up getting your nails into the canvas
@@ -29,7 +29,7 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "You try to get on top of the truck, but this doesn\u2019t go
       the way you wanted to. The canvas rips off and you almost fall."
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You try it one more time and set your loose paw onto the canvas
       above you. Then you make a leap and end up on top. '
@@ -41,7 +41,7 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: A truck drives away from it with a logo on the side. You look
       closer, it is the logo of the printing factory.
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You immediately jump of the truck and run straight to the corporation.
       There is a lot of security around the building.

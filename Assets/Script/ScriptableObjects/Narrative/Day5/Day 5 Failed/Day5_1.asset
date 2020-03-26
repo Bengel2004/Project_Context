@@ -17,12 +17,12 @@ MonoBehaviour:
     narrativeText: It is sunny again in Caracoli, Andrea waters you and works on
       the land as usual. It is a more quiet day, a perfect day to do something back
       for your caretaker.
-    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'The past few days had an impact on you. You think of going inside
       and try to find a way to help Andrea. '
-    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Closeby are a lot of bees that are pollinating the flowers, you
       decide to become a bee and look around on the farm. '
-    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
