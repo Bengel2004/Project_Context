@@ -1,0 +1,604 @@
+fileFormatVersion: 2
+guid: eb99225679802b244ade58cbeb108c00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5183837799846340376
+    second: Animatie_druppels_0
+  - first:
+      213: -4574112074851704139
+    second: Animatie_druppels_1
+  - first:
+      213: 3525569352604384916
+    second: Animatie_druppels_2
+  - first:
+      213: -1611406997885008894
+    second: Animatie_druppels_3
+  - first:
+      213: 8235145391566935539
+    second: Animatie_druppels_4
+  - first:
+      213: -5884490376995662656
+    second: Animatie_druppels_5
+  - first:
+      213: -4607449762320786454
+    second: Animatie_druppels_6
+  - first:
+      213: -8649644427106364410
+    second: Animatie_druppels_7
+  - first:
+      213: -3752276099969388887
+    second: Animatie_druppels_8
+  - first:
+      213: -6026436762807170469
+    second: Animatie_druppels_9
+  - first:
+      213: 7726542276990225168
+    second: Animatie_druppels_10
+  - first:
+      213: -7818753988109015451
+    second: Animatie_druppels_11
+  - first:
+      213: 6323743398843300685
+    second: Animatie_druppels_12
+  - first:
+      213: 2027153139233108022
+    second: Animatie_druppels_13
+  - first:
+      213: 1413671555578401411
+    second: Animatie_druppels_14
+  - first:
+      213: -7593224549466023670
+    second: Animatie_druppels_15
+  - first:
+      213: 9190288474971504837
+    second: Animatie_druppels_16
+  - first:
+      213: -631652662645824843
+    second: Animatie_druppels_17
+  - first:
+      213: 2405576771288536158
+    second: Animatie_druppels_18
+  - first:
+      213: 1249031424570734369
+    second: Animatie_druppels_19
+  - first:
+      213: -5702765872924492795
+    second: Animatie_druppels_20
+  - first:
+      213: -6001564119307770231
+    second: Animatie_druppels_21
+  - first:
+      213: 5241816344266654389
+    second: Animatie_druppels_22
+  - first:
+      213: 4511313338989019172
+    second: Animatie_druppels_23
+  - first:
+      213: 8979760442940071911
+    second: Animatie_druppels_24
+  - first:
+      213: 8385678671689952540
+    second: Animatie_druppels_25
+  - first:
+      213: -5545373103987454224
+    second: Animatie_druppels_26
+  - first:
+      213: -7697065373278065239
+    second: Animatie_druppels_27
+  - first:
+      213: 4408366707059693911
+    second: Animatie_druppels_28
+  - first:
+      213: -1936352598148471831
+    second: Animatie_druppels_29
+  - first:
+      213: -4854753615333108370
+    second: Animatie_druppels_30
+  - first:
+      213: -1035775541324330621
+    second: Animatie_druppels_31
+  - first:
+      213: 3238795652322200351
+    second: Animatie_druppels_32
+  - first:
+      213: -8815923641722383583
+    second: Animatie_druppels_33
+  - first:
+      213: 396693434950571938
+    second: Animatie_druppels_34
+  - first:
+      213: 1345073512323470244
+    second: Animatie_druppels_35
+  - first:
+      213: 3822237268064669926
+    second: Animatie_druppels_36
+  - first:
+      213: 863736074620014699
+    second: Animatie_druppels_37
+  - first:
+      213: -1342783066447924199
+    second: Animatie_druppels_38
+  - first:
+      213: 994299551720192949
+    second: Animatie_druppels_39
+  - first:
+      213: 5467349592641675158
+    second: Animatie_druppels_40
+  - first:
+      213: 3032085188675610901
+    second: Animatie_druppels_41
+  - first:
+      213: -6486320631988377892
+    second: Animatie_druppels_42
+  - first:
+      213: -1809357993029913428
+    second: Animatie_druppels_43
+  - first:
+      213: 4327455640252509987
+    second: Animatie_druppels_44
+  - first:
+      213: 8462859184514325608
+    second: Animatie_druppels_45
+  - first:
+      213: -6649626318322008333
+    second: Animatie_druppels_46
+  - first:
+      213: -6883411043865562630
+    second: Animatie_druppels_47
+  - first:
+      213: 5953096225942011380
+    second: Animatie_druppels_48
+  - first:
+      213: 9150762342144683951
+    second: Animatie_druppels_49
+  - first:
+      213: 8010044175187063268
+    second: Animatie_druppels_50
+  - first:
+      213: -1052867919713875528
+    second: Animatie_druppels_51
+  - first:
+      213: -4319131449854323853
+    second: Animatie_druppels_52
+  - first:
+      213: -3080662024903636430
+    second: Animatie_druppels_53
+  - first:
+      213: 6154968406388770914
+    second: Animatie_druppels_54
+  - first:
+      213: 246040917188334612
+    second: Animatie_druppels_55
+  - first:
+      213: -3185231429510008335
+    second: Animatie_druppels_56
+  - first:
+      213: 3998844546499039156
+    second: Animatie_druppels_57
+  - first:
+      213: -3182507546904204270
+    second: Animatie_druppels_58
+  - first:
+      213: -3603176920042628842
+    second: Animatie_druppels_59
+  - first:
+      213: -4296972987343191933
+    second: Animatie_druppels_60
+  - first:
+      213: 676218607442658808
+    second: Animatie_druppels_61
+  - first:
+      213: 4376800437544667697
+    second: Animatie_druppels_62
+  - first:
+      213: 537280774895084813
+    second: Animatie_druppels_63
+  - first:
+      213: 3936918590927536201
+    second: Animatie_druppels_64
+  - first:
+      213: 8557161110648541797
+    second: Animatie_druppels_65
+  - first:
+      213: -1535603350837035173
+    second: Animatie_druppels_66
+  - first:
+      213: 7438171034985482012
+    second: Animatie_druppels_67
+  - first:
+      213: -4024397263262113756
+    second: Animatie_druppels_68
+  - first:
+      213: 384703771242278485
+    second: Animatie_druppels_69
+  - first:
+      213: 7284640971012881817
+    second: Animatie_druppels_70
+  - first:
+      213: -7312619634934170568
+    second: Animatie_druppels_71
+  - first:
+      213: -9222123685153547940
+    second: Animatie_druppels_72
+  - first:
+      213: -3981977904883947208
+    second: Animatie_druppels_73
+  - first:
+      213: 6469235430150252273
+    second: Animatie_druppels_74
+  - first:
+      213: -8736146528449126929
+    second: Animatie_druppels_75
+  - first:
+      213: 7615904321642716518
+    second: Animatie_druppels_76
+  - first:
+      213: 8046889018807387762
+    second: Animatie_druppels_77
+  - first:
+      213: -8721951581685434894
+    second: Animatie_druppels_78
+  - first:
+      213: -1779371726079147660
+    second: Animatie_druppels_79
+  - first:
+      213: 4645616545903137489
+    second: Animatie_druppels_80
+  - first:
+      213: 1044749699529603230
+    second: Animatie_druppels_81
+  - first:
+      213: -1922918205325850803
+    second: Animatie_druppels_82
+  - first:
+      213: -3554441989281812209
+    second: Animatie_druppels_83
+  - first:
+      213: 6419640719198971101
+    second: Animatie_druppels_84
+  - first:
+      213: 3571694346815430289
+    second: Animatie_druppels_85
+  - first:
+      213: 6811157207002959837
+    second: Animatie_druppels_86
+  - first:
+      213: 7139987793947131898
+    second: Animatie_druppels_87
+  - first:
+      213: -1582238213176941038
+    second: Animatie_druppels_88
+  - first:
+      213: 3008397513456974348
+    second: Animatie_druppels_89
+  - first:
+      213: 6286030827612158368
+    second: Animatie_druppels_90
+  - first:
+      213: 5973925949979826093
+    second: Animatie_druppels_91
+  - first:
+      213: -7562049855944502784
+    second: Animatie_druppels_92
+  - first:
+      213: 2998388169839934441
+    second: Animatie_druppels_93
+  - first:
+      213: -418175557759964420
+    second: Animatie_druppels_94
+  - first:
+      213: -8484423593084259754
+    second: Animatie_druppels_95
+  - first:
+      213: -8943841153965255526
+    second: Animatie_druppels_96
+  - first:
+      213: -6674402212976732361
+    second: Animatie_druppels_97
+  - first:
+      213: 6802256432824332147
+    second: Animatie_druppels_98
+  - first:
+      213: -2853817950127229098
+    second: Animatie_druppels_99
+  - first:
+      213: -5246528698613522546
+    second: Animatie_druppels_100
+  - first:
+      213: 4112499854652525936
+    second: Animatie_druppels_101
+  - first:
+      213: -1222664262932447629
+    second: Animatie_druppels_102
+  - first:
+      213: 4535501515381196859
+    second: Animatie_druppels_103
+  - first:
+      213: -2322967606005645341
+    second: Animatie_druppels_104
+  - first:
+      213: -834633518389159430
+    second: Animatie_druppels_105
+  - first:
+      213: -1041040920689820706
+    second: Animatie_druppels_106
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animatie_druppels_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 991
+        width: 25
+        height: 47
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81765198301b0f740800000000000000
+      internalID: 5183837799846340376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 918
+        width: 29
+        height: 57
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a3a77d4d7580c0800000000000000
+      internalID: -4574112074851704139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 837
+        width: 32
+        height: 62
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49efcfc95a65de030800000000000000
+      internalID: 3525569352604384916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 729
+        width: 31
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044c7e7fd123a9e0800000000000000
+      internalID: -1611406997885008894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 591
+        width: 33
+        height: 69
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5da0a1a1d194270800000000000000
+      internalID: 8235145391566935539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 378
+        width: 36
+        height: 89
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c418f2fd27165ea0800000000000000
+      internalID: -5884490376995662656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 460
+        width: 24
+        height: 67
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb596c3adc0f00c0800000000000000
+      internalID: -4607449762320786454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animatie_druppels_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 41
+        width: 34
+        height: 96
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60453e8a83a46f780800000000000000
+      internalID: -8649644427106364410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
