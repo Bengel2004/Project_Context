@@ -16,8 +16,8 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You can not go inside as a cat, you are too big. You turn around
       to go into the woods, looking for something smaller.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Then you see it, a pile of sand with swarming ants. You transform
       into it and go inside.  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

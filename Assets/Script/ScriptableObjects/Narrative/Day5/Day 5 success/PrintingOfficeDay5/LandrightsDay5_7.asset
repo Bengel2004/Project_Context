@@ -16,12 +16,12 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Here you go, these are the latest pumpkins from our farm. Hopefully
       they are what you are looking for.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "Yes these are perfect, but don\u2019t think the problem will
       be solved with this, I will come back after two weeks and expect to get the
       same."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7dd95d7b1f86bee48ab4a98556e4c8e4, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'On his way to the door he comes across the counter and sees you
       (the land rights) lying around on the table. '
@@ -30,75 +30,75 @@ MonoBehaviour:
     narrativeText: "How did this get here? He points at you. Is this a joke? How
       did you manage to buy this land? I thought you said that you didn\u2019t have
       any money? "
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dacd57ae0bb2dfe42baaf3dd165cf075, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Andrea looks over, confusing.
     clip: {fileID: 0}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: What are you talking about?
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "She walks towards you and picks you up. She can\u2019t read well
       enough to understand and calls her husband.  "
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'JUAN, COME HERE!  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Juan yells back.  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: 'COMING!  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7dd95d7b1f86bee48ab4a98556e4c8e4, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Juan walks in not suspecting anything and moves over to them.
       He picks up the paper and reads. His eyes begin to glow, He turns around to
       Andrea.  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: We got the land? Saying in a non believing way.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: e03d92362cc2cca499af4aaf25737b86, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'We have what?! How is that possible?  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: It says it right here
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a335e23a8f7e8e54687a790da33f06d2, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Juan points at it and looks the landowner in the eye afterwards. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: What are you still doing here? We would like to get our pumpkins
       back.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7dd95d7b1f86bee48ab4a98556e4c8e4, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: '(Daydreams), I am going to make a feast meal for my family and
       I never want to see your grumpy face again. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8767d7ddf63387643aab0c10a25b171f, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: But how is this possible? This is my land?!
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dacd57ae0bb2dfe42baaf3dd165cf075, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: 'It says it right here, if you are not leaving fast, I will come
       after you with our scythe! '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dacd57ae0bb2dfe42baaf3dd165cf075, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'The landowner first struggled, but then ran away as fast as possible. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "I don\u2019t know how we got this here, but I am sure that someone
       is protecting us."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: "I believe so to honey, let\u2019s celebrate the occasion."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a335e23a8f7e8e54687a790da33f06d2, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Sweety, have you finally found some assurance?
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
   - narrativePerson: {fileID: 21300000, guid: 8655ac0cc664ec44e9e5852825baa5a7, type: 3}
     narrativeText: 'Yes, I promise to look more after our family. Hopefully this
       is a nice beginning.  '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a335e23a8f7e8e54687a790da33f06d2, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'They hug each other... '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

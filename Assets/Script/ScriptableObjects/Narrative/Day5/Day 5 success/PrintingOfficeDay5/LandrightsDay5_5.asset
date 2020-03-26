@@ -16,28 +16,28 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You eventually end up in a little office, where the land rights
       are being pressed. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You go into the cartridge of the printer and you drenched yourself
       in ink. The signing column on top of the paper pile is still blank.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "You walk in circles to write down Andrea\u2019s name. The only
       thing left to do is getting the paper back to the farm."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You call the other ants, a few moments pass and then suddenly
       a wave of ants come to help you out. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "The paper is carried by so many, that you feel blessed. You don\u2019t
       feel much, but the feeling of solidarity is passing through. "
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: They all helped out just like all the other animals form the last
       few days. Everyone including the paper ended up outside.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "It will be a long way home, but then the wind blows abruptly
       harsh. The paper flies away, you don\u2019t think and transfer into the paper."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

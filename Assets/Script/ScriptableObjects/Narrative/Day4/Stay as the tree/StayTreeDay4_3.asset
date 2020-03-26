@@ -16,28 +16,28 @@ MonoBehaviour:
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'You went on home right after and transferred back to your own
       self. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Hello sweet pumpkin, Even after this drought you are looking well!
       Oh wait what is that? You have a withered leaf!
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Let me take that away little one. There there, you look all healthy
       again. Looks like you had some stress today, haha oh look at me, I am treating
       you as one of my own babies.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: faf143df69211d043b949bb88f2235a2, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "Anyway, Juan wasn\u2019t so pleased with the visit of the landowner.
       He said we should be more careful, even though it went well this time, we need
       to produce more."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Personally I believe that he thinks to much about the farm and
       to little about our family, but I am also scared that we might part our ways.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'She goes back inside, but just before she turns around. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'Good night little one. Said with a generous smile. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: faf143df69211d043b949bb88f2235a2, type: 3}

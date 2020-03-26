@@ -17,9 +17,9 @@ MonoBehaviour:
     narrativeText: 'You choose to fly into the village, You see a lot of food stalls
       where delicious looking fruits, spices, home made cooking and vegetables are
       being sold. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Near the main square you see a little back alley where a stray
       dog sleeps and decide to fly to it. You land in front of the dog and turn into
       it. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}

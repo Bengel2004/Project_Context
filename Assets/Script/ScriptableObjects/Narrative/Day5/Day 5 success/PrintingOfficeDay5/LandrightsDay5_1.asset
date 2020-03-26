@@ -17,15 +17,15 @@ MonoBehaviour:
     narrativeText: 'You decide to go to the printing office, but how to you get there
       again? You look around if there is a bird nearby. That way you can get an easy
       overview in the sky. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You sharpen your eyes, birds! They are picking on the ground.
       The seeds Andrea planted just now are eaten by them!
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You look for a way to scare them away. You look further, the farm
       cat is fishing in the pond.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'To get there you use the bees around you to fly to the cat. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}

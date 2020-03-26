@@ -17,13 +17,13 @@ MonoBehaviour:
     narrativeText: 'Maybe you can even help Andrea outside of the farm. You look
       everywhere in the town until, at one moment you see a glowing object underneath
       a market stand. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: You come closer for a better look and see a piece of money on
       the ground. It is glowing?
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'Just like all the other animals and plants you could transfer
       into. So you can become objects too? You transfer into the money and figure
       that you are lifelessly lying on the ground. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}

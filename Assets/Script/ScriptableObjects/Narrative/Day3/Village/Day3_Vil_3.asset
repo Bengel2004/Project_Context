@@ -17,50 +17,50 @@ MonoBehaviour:
     narrativeText: I love that you are growing so much and doing your best for me,
       talking to you frees me of my worries, but I had a fight again with Juan, little
       pumpkin.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "He says that I\u2019m not working hard enough, but because of
       the drought, it is not possible for plants to grow hard enough!"
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8767d7ddf63387643aab0c10a25b171f, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "I said maybe we should focus more on our own family in these
       hard times, but he didn\u2019t want anything to do with it."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 61beb325d4ba94e48846b50c6f337302, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: 'She shakes her head to shake away her worries. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: I have also good news, a miracle happened today!
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: faf143df69211d043b949bb88f2235a2, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: When I came back from the field, my porch was stacked with bulbs
       and water and thus had food for tonight.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: You are also doing so well, here have some water too.
-    clip: {fileID: 8300000, guid: a8f08e9ca4ad73244aba170474231f77, type: 3}
+    clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She says while she takes some of your fruits.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "Meanwhile the landowner of Andrea\u2019s farm comes to visit."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'Good evening sir, I have my share from the last couple of days
       right here. '
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 61beb325d4ba94e48846b50c6f337302, type: 3}
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She gives some of your pumpkins to him.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 485492211c5499943ab832b450962db9, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: Well well, let me see, these are some fine vegetables. You finally
       grew some quality.
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7dd95d7b1f86bee48ab4a98556e4c8e4, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "If you didn\u2019t have anything to share today, I could only
       give you one more week before shutting you out of the land."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: df3af8e876dfeb94587074f7d2967079, type: 3}
   - narrativePerson: {fileID: 21300000, guid: d382f1a4158ac314184fb548594c1004, type: 3}
     narrativeText: "Luckily for you, this didn\u2019t happen. Have a nice evening
       Andrea, see you next week."
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dacd57ae0bb2dfe42baaf3dd165cf075, type: 3}

@@ -61,6 +61,7 @@ public class StoryItem : MonoBehaviour
 
     private Outline thisOutline;
 
+    public UIView MainMenu;
     private void Awake()
     {
 
@@ -167,6 +168,11 @@ public class StoryItem : MonoBehaviour
                             else if(i.GetComponent<SpriteRenderer>() == null && item.Count == 1)
                             {
                                 CompleteTask(i);
+
+                                if (isLastItem)
+                                {
+                                MainMenu.Show();
+                                }
                             }
                         }
                     
