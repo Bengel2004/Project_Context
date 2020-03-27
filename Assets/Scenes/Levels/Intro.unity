@@ -4667,7 +4667,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9a586247b500ff548a9e5b23e8224849, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.579
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22690,7 +22690,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 678e832b0dd325841998fde2216a09c9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22796,7 +22796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &532422924
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22814,10 +22814,10 @@ RectTransform:
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &532422925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25823,7 +25823,7 @@ MonoBehaviour:
   currentSunPos: 1
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 016deac32573ad5469117800e78b04be, type: 2}
-  narItem: {fileID: 0}
+  narItem: {fileID: 11400000, guid: b7627824ca141694eb8bd3abf5263db9, type: 2}
   growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
@@ -35755,7 +35755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item:
   - {fileID: 1163429663}
-  task: Choose your option
+  task: Grow for the day
   clip: {fileID: 8300000, guid: 5eedf442293e69948a11ee6d7b089d61, type: 3}
   isLastItem: 0
   skipDayItem: 1
@@ -35804,7 +35804,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144048259}
         m_MethodName: set_enabled
@@ -35815,7 +35815,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144048258}
         m_MethodName: set_enabled
@@ -35848,7 +35848,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 824123548}
         m_MethodName: set_enabled
@@ -35864,7 +35864,18 @@ MonoBehaviour:
   endEventBool: 0
   endEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   altBehaviour: 0
   eventType:
     m_PersistentCalls:
@@ -42705,8 +42716,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163429661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.563903, y: 0.6279094, z: 0}
-  m_LocalScale: {x: 0.309, y: 0.37092, z: 0.34458998}
+  m_LocalPosition: {x: -4.494, y: 0.6279094, z: 0}
+  m_LocalScale: {x: 0.32568598, y: 0.37092, z: 0.34458998}
   m_Children: []
   m_Father: {fileID: 909621777}
   m_RootOrder: 0
@@ -42732,7 +42743,7 @@ MonoBehaviour:
   currentSunPos: 1
   DaySunPos: 4
   organism: {fileID: 11400000, guid: 054ef1f4e468f2f4cb95f1ca69b19246, type: 2}
-  narItem: {fileID: 11400000, guid: 07deea37c2e746841825aa10664e4e82, type: 2}
+  narItem: {fileID: 11400000, guid: 37174346c65fd1c4b836d38fbd1702ae, type: 2}
   growButton: {fileID: 246381521}
   showText: 1
   endOfDayText: 'You became the bee, but a bird attacks out of nowhere and scoops
@@ -47425,7 +47436,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1562190529}
         m_MethodName: set_enabled
@@ -47436,7 +47447,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 20188068}
         m_MethodName: set_enabled
@@ -52594,8 +52605,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673663955}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.3, y: -1.6, z: 0}
-  m_LocalScale: {x: 0.81, y: 0.81, z: 0.81}
+  m_LocalPosition: {x: -54.79, y: 6.39, z: 0}
+  m_LocalScale: {x: 1.5066, y: 1.5066, z: 1.5066}
   m_Children: []
   m_Father: {fileID: 1185670091}
   m_RootOrder: 1
