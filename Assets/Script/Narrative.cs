@@ -18,6 +18,10 @@ public class Narrative : MonoBehaviour
     private Image personImg;
     [SerializeField]
     private TextMeshProUGUI personText;
+    [SerializeField]
+    private GameObject wateringSprite;
+    [SerializeField]
+    private GameObject showJuan;
 
     public bool isReading = false;
     // Start is called before the first frame update
@@ -28,6 +32,8 @@ public class Narrative : MonoBehaviour
         {
             source = GetComponent<AudioSource>();
         }
+        showJuan.SetActive(false);
+        wateringSprite.SetActive(false);
     }
 
     void Update()
@@ -44,6 +50,16 @@ public class Narrative : MonoBehaviour
         narItem = _narItem;
         personText.text = narItem.narrativeObj[currentText].narrativeText;
         personImg.sprite = narItem.narrativeObj[currentText].narrativePerson;
+
+        if (narItem.narrativeObj[currentText].showJuan)
+        {
+            Debug.Log("JUAN SHOW UR BOOTY");
+            showJuan.SetActive(true);
+        }
+        else
+        {
+            showJuan.SetActive(false);
+        }
     }
 
     public void SkipText()
@@ -57,6 +73,24 @@ public class Narrative : MonoBehaviour
             {
                 Debug.Log("Play Audio");
                 source.PlayOneShot(narItem.narrativeObj[currentText].clip);
+            }
+            if (narItem.narrativeObj[currentText].showWater)
+            {
+                wateringSprite.SetActive(true);
+            }
+            else
+            {
+                wateringSprite.SetActive(false);
+            }
+
+            if (narItem.narrativeObj[currentText].showJuan)
+            {
+                Debug.Log("JUAN SHOW UR BOOTY");
+                showJuan.SetActive(true);
+            }
+            else
+            {
+                showJuan.SetActive(false);
             }
         }
         else

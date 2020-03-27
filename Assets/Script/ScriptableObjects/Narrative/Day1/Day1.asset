@@ -19,23 +19,35 @@ MonoBehaviour:
       you tight while walking away from the store, she introduces herself to you
       as Andrea.  '
     clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She talks about the nice spot she reserved for you and all your
       new friends on the farm that you will get to know, she chatters on and on and
       hums, until she suddenly stops.
     clip: {fileID: 8300000, guid: bb5c5462a8507924ba8f581870aa8dbc, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: Look, this will be your new home!
     clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: She walks to a spot with a hole in it and a lot of sun. She put
       you down in the hole and scoops sand all around you, until you are settled
       quite nicely.
     clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: You are my very first little pumpkin sprout and I will take care
       of you in the best way possible.
     clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: Andrea waters you and together with the sun you are able to grow.
     clip: {fileID: 8300000, guid: a8f08e9ca4ad73244aba170474231f77, type: 3}
+    showWater: 1
+    showJuan: 0

@@ -14,4 +14,6 @@ public class NarrativeObj
     public Sprite narrativePerson;
     public string narrativeText;
     public AudioClip clip;
+    public bool showWater;
+    public bool showJuan;
 }

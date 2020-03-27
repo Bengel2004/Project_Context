@@ -17,16 +17,24 @@ MonoBehaviour:
     narrativeText: 'It is a sunny day again in Caracoli, Andrea starts her day with
       watering you...  '
     clip: {fileID: 8300000, guid: a8f08e9ca4ad73244aba170474231f77, type: 3}
+    showWater: 1
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'Oh sweet pumpkin, I have some bad news, this will be the last
       water for a few days. I really hope you will be fine in this harsh drought,
       but I will try my best to get some more soon! '
     clip: {fileID: 8300000, guid: ffa7a1d091a028a499574176eb20bf05, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: I hope you grow well enough, for my two boys especially.
     clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: ea8bb54b4bad8c14ca0303829c9d93dd, type: 3}
     narrativeText: "Nevertheless the sun has been blocked by another plant, if there
       was only a way to break that branch\u2026 Since you grew some flowers a bee
       passes by and sits on your flower."
     clip: {fileID: 8300000, guid: bb9d998be229d3d40aec6b4dc763af83, type: 3}
+    showWater: 0
+    showJuan: 0

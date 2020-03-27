@@ -18,11 +18,17 @@ MonoBehaviour:
       doing so well pumpkin. Between me and my husband, you know, Juan it isn\u2019t
       going so well. "
     clip: {fileID: 8300000, guid: 8724ed0a0420e374488a05a7308ca979, type: 3}
+    showWater: 0
+    showJuan: 1
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: 'We are almost out of food, but our children need to eat. We think
       differently on how to achieve that. '
     clip: {fileID: 8300000, guid: 61beb325d4ba94e48846b50c6f337302, type: 3}
+    showWater: 0
+    showJuan: 0
   - narrativePerson: {fileID: 21300000, guid: a8cd81a138bb0d649ba5856f0743a846, type: 3}
     narrativeText: "He keeps on telling me that the farm doesn\u2019t compete enough
       with other farms. Oh well, I see you tomorrow pumpkin."
     clip: {fileID: 8300000, guid: 2241fdc59cb2b82468f43fbcebd311c5, type: 3}
+    showWater: 0
+    showJuan: 0
